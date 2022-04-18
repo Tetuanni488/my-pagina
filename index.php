@@ -26,7 +26,14 @@
 			$sql->execute();
 			$sql->setFetchMode(PDO::FETCH_ASSOC);
 			header("HTTP/1.1 200 hay datos");
-			$list = json_encode($sql->fetchAll());
+			$list = $sql->fetchAll();
+            foreach ($list as $key => $contact) {
+                echo "<table style='width:100%'>
+                        <th>Nombre: {$contact['nombre']}</th>
+                        <th>Telefono: {$contact['telefono']}</th>
+                        <th>Email: {$contact['email']}</th>
+                    </table>";
+            };
 			exit;
 			
 			} else {
