@@ -1,102 +1,78 @@
-<html>
-    <style>
-        table, th, td {
-        border:
-            1px solid black;
-        }
-    </style>
-</html>
-
-<?php
-	/*
-		Web Service RESTful en PHP con MySQL (CRUD)
-		Marko Robles
-		Códigos de Programación
-	*/
-	include 'conexion.php';
-	
-	$pdo = new Conexion();
-	
-	//Listar registros y consultar registro
-	if($_SERVER['REQUEST_METHOD'] == 'GET'){
-		if(isset($_GET['id']))
-		{
-			$sql = $pdo->prepare("SELECT * FROM contactos WHERE id=:id");
-			$sql->bindValue(':id', $_GET['id']);
-			$sql->execute();
-			$sql->setFetchMode(PDO::FETCH_ASSOC);
-			header("HTTP/1.1 200 hay datos");
-			$list = $sql->fetchAll();
-            foreach ($list as $key => $contact) {
-                echo "<table style='width:100%'>
-                        <th>Nombre: {$contact['nombre']}</th>
-                        <th>Telefono: {$contact['telefono']}</th>
-                        <th>Email: {$contact['email']}</th>
-                    </table>";
-            };
-			exit;
-			
-			} else {
-			
-			$sql = $pdo->prepare("SELECT * FROM contactos");
-			$sql->execute();
-			$sql->setFetchMode(PDO::FETCH_ASSOC);
-			header("HTTP/1.1 200 hay datos");
-			$list = $sql->fetchAll();
-            foreach ($list as $key => $contact) {
-                echo "<table style='width:100%'>
-                        <th>Nombre: {$contact['nombre']}</th>
-                        <th>Telefono: {$contact['telefono']}</th>
-                        <th>Email: {$contact['email']}</th>
-                    </table>";
-            };
-			exit;
-		}
-	}
-	
-	//Insertar registro
-	if($_SERVER['REQUEST_METHOD'] == 'POST')
-	{
-		$sql = "INSERT INTO contactos (nombre, telefono, email) VALUES(:nombre, :telefono, :email)";
-		$stmt = $pdo->prepare($sql);
-		$stmt->bindValue(':nombre', $_POST['nombre']);
-		$stmt->bindValue(':telefono', $_POST['telefono']);
-		$stmt->bindValue(':email', $_POST['email']);
-		$stmt->execute();
-		$idPost = $pdo->lastInsertId(); 
-		if($idPost)
-		{
-			header("HTTP/1.1 200 Ok");
-			echo json_encode($idPost);
-			exit;
-		}
-	}
-	
-	//Actualizar registro
-	if($_SERVER['REQUEST_METHOD'] == 'PUT')
-	{
-		$sql = "UPDATE contactos SET nombre=:nombre, telefono=:telefono, email=:email WHERE id=:id";
-		$stmt = $pdo->prepare($sql);
-		$stmt->bindValue(':nombre', $_GET['nombre']);
-		$stmt->bindValue(':telefono', $_GET['telefono']);
-		$stmt->bindValue(':email', $_GET['email']);
-		$stmt->bindValue(':id', $_GET['id']);
-		$stmt->execute();
-		header("HTTP/1.1 200 Ok");
-		exit;
-	}
-	
-	//Eliminar registro
-	if($_SERVER['REQUEST_METHOD'] == 'DELETE')
-	{
-		$sql = "DELETE FROM contactos WHERE id=:id";
-		$stmt = $pdo->prepare($sql);
-		$stmt->bindValue(':id', $_GET['id']);
-		$stmt->execute();
-		header("HTTP/1.1 200 Ok");
-		exit;
-	}
-	
-	//Si no corresponde a ninguna opción anterior
-	header("HTTP/1.1 400 Bad Request");
-?>
+<?php  
+ session_start();  
+ $host = "localhost";  
+ $db_username = "root";  
+ $db_password = "password";  
+ $database = "mi_base_de_datos";  
+ $message = "";  
+ try  
+ {  
+      $connect = new PDO("mysql:host=$host; dbname=$database", $db_username, $db_password);  
+      $connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
+      if(isset($_POST["login"]))  
+      {  
+           if(empty($_POST["username"]) || empty($_POST["password"]))  
+           {  
+                $message = '<label>All fields are required</label>';  
+           }  
+           else  
+           {
+				$username = $_POST['username'];
+				$password = md5($_POST['password']);
+                $query = "SELECT * FROM users WHERE username = :username AND password = :password";  
+                $statement = $connect->prepare($query);  
+                $statement->execute(  
+                     array(  
+                          'username'=>$username,  
+                          'password'=>$password,  
+                     )  
+                );  
+                $count = $statement->rowCount();  
+                if($count > 0)  
+                {  
+                     $_SESSION["username"] = $_POST["username"];  
+                     header("location:login_success.php");  
+                }  
+                else  
+                {  
+                     $message = '<label>Wrong Data</label>';  
+                }  
+           }  
+      }  
+ }  
+ catch(PDOException $error)  
+ {  
+      $message = $error->getMessage();  
+ }  
+ ?>  
+ <!DOCTYPE html>  
+ <html>  
+      <head>  
+           <title>Webslesson Tutorial | PHP Login Script using PDO</title>  
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>  
+           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />  
+           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+      </head>  
+      <body>  
+           <br />  
+           <div class="container" style="width:500px;">  
+                <?php  
+                if(isset($message))  
+                {  
+                     echo '<label class="text-danger">'.$message.'</label>';  
+                }  
+                ?>  
+                <h3 align="">PHP Login Script using PDO</h3><br />  
+                <form method="post">  
+                     <label>Username</label>  
+                     <input type="text" name="username" class="form-control" />  
+                     <br />  
+                     <label>Password</label>  
+                     <input type="password" name="password" class="form-control" />  
+                     <br />  
+                     <input type="submit" name="login" class="btn btn-info" value="Login" />  
+                </form>  
+           </div>  
+           <br />  
+      </body>  
+ </html>
