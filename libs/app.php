@@ -47,7 +47,8 @@ class App
                 $controller->render();  
             }
         }else{
-            $controller = new Error();
+            require 'controllers/errors.php';;
+            $controller = new Errors();
         }
     }
     

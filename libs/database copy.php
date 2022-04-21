@@ -1,7 +1,48 @@
 <?php
 
-// use PDO;
-// use PDOException;
+class Database{
+
+    private $host;
+    private $db;
+    private $user;
+    private $password;
+    private $charset;
+
+    public function __construct(){
+        $this->host     = "localhost";
+        $this->db       = "mi-base-de-datos";
+        $this->user     = "root";
+        $this->password = "password";
+        // $this->charset  = constant('CHARSET');
+    }
+
+    function connect(){
+    
+        try{
+            
+            $connection = "mysql:host=" . $this->host . ";dbname=" . $this->db . ";";
+            $options = [
+                PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
+                PDO::ATTR_EMULATE_PREPARES   => false,
+            ];
+            $pdo = new PDO($connection, $this->user, $this->password, $options);
+    
+            return $pdo;
+
+        }catch(PDOException $e){
+            print_r('Error connection: ' . $e->getMessage());
+        }   
+    }
+}
+
+?>
+
+<?php
+
+namespace App\Utility;
+
+use PDO;
+use PDOException;
 
 /**
  * Database:
@@ -12,34 +53,34 @@
 class Database {
 
     /** @var Database */
-    static $_Database = null;
+    private static $_Database = null;
 
     /** @var PDO */
-    public $_PDO = null;
+    private $_PDO = null;
 
     /** @var PDOStatement */
-    public $_query = null;
+    private $_query = null;
 
     /** @var boolean */
-    public $_error = false;
+    private $_error = false;
 
     /** @var array */
-    public $_results = [];
+    private $_results = [];
 
     /** @var integer */
-    public $_count = 0;
+    private $_count = 0;
 
     /**
      * Construct:
      * @access private
      * @since 1.0.1
      */
-    function __construct() {
+    private function __construct() {
         try {
-            $host = "localhost";
-            $name = "mi_base_de_datos";
-            $username = "root";
-            $password = "password";
+            $host = Config::get("DATABASE_HOST");
+            $name = Config::get("DATABASE_NAME");
+            $username = Config::get("DATABASE_USERNAME");
+            $password = Config::get("DATABASE_PASSWORD");
             $this->_PDO = new PDO("mysql:host={$host};dbname={$name}", $username, $password);
         } catch (PDOException $e) {
             die($e->getMessage());

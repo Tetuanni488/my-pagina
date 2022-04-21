@@ -1,4 +1,5 @@
 <?php
+require_once 'libs/session.php';
 require_once 'libs/database.php';
 require_once 'libs/model.php';
 require_once 'libs/view.php';
