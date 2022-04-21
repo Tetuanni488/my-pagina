@@ -13,9 +13,10 @@ class Login_Model extends Model
 			$username=$_POST['username'];
 			$password=md5($_POST['password']);
 			
-			$query = $this->db->connect()->prepare("SELECT FROM users WHERE username = :username AND password = :password");
+			$query = $this->db->connect()->prepare("SELECT * FROM users WHERE username = :username AND password = :password");
 
-            $query->execute([':username' => $id, ':password' => $password]);
+            $query->execute([':username' => $username, ':password' => $password]);
+
 			if ($row = $query->fetch()) {
 
 				// Session::setValue('role', "user");
