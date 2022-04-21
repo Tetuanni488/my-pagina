@@ -1,48 +1,7 @@
 <?php
 
-class Database{
-
-    private $host;
-    private $db;
-    private $user;
-    private $password;
-    private $charset;
-
-    public function __construct(){
-        $this->host     = "localhost";
-        $this->db       = "mi-base-de-datos";
-        $this->user     = "root";
-        $this->password = "password";
-        // $this->charset  = constant('CHARSET');
-    }
-
-    function connect(){
-    
-        try{
-            
-            $connection = "mysql:host=" . $this->host . ";dbname=" . $this->db . ";";
-            $options = [
-                PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
-                PDO::ATTR_EMULATE_PREPARES   => false,
-            ];
-            $pdo = new PDO($connection, $this->user, $this->password, $options);
-    
-            return $pdo;
-
-        }catch(PDOException $e){
-            print_r('Error connection: ' . $e->getMessage());
-        }   
-    }
-}
-
-?>
-
-<?php
-
-namespace App\Utility;
-
-use PDO;
-use PDOException;
+// use PDO;
+// use PDOException;
 
 /**
  * Database:
@@ -53,34 +12,34 @@ use PDOException;
 class Database {
 
     /** @var Database */
-    private static $_Database = null;
+    static $_Database = null;
 
     /** @var PDO */
-    private $_PDO = null;
+    public $_PDO = null;
 
     /** @var PDOStatement */
-    private $_query = null;
+    public $_query = null;
 
     /** @var boolean */
-    private $_error = false;
+    public $_error = false;
 
     /** @var array */
-    private $_results = [];
+    public $_results = [];
 
     /** @var integer */
-    private $_count = 0;
+    public $_count = 0;
 
     /**
      * Construct:
      * @access private
      * @since 1.0.1
      */
-    private function __construct() {
+    function __construct() {
         try {
-            $host = Config::get("DATABASE_HOST");
-            $name = Config::get("DATABASE_NAME");
-            $username = Config::get("DATABASE_USERNAME");
-            $password = Config::get("DATABASE_PASSWORD");
+            $host = "localhost";
+            $name = "mi_base_de_datos";
+            $username = "root";
+            $password = "password";
             $this->_PDO = new PDO("mysql:host={$host};dbname={$name}", $username, $password);
         } catch (PDOException $e) {
             die($e->getMessage());

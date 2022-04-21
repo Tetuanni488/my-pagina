@@ -9,28 +9,27 @@ class Login_Model extends Model
 
 	public function run()
 	{
-		
-		$username=$_POST['username'];
-		$password=md5($_POST['password']);
+		if($_SERVER["REQUEST_METHOD"] == "POST"){
+			$username=$_POST['username'];
+			$password=md5($_POST['password']);
+			
+			$sql = strval("SELECT FROM users WHERE username = :id AND password = :password");
+			$query = $this->db->connect()->prepare($sql);
 
-		echo $_POST['password'];
-		
-		$res= $this->db->select("users",["username", "=", $username]);		
-		if ($res->count()) {
+            $query->execute(['username' => $id, 'password' => $password]);
+			if ($row = $query->fetch()) {
 
-			Session::setValue('role', "user");
-			Session::setValue('loggedIn', true);
-			Session::setValue('user_name', $username);
-			Session::setValue('password', $res[0]['password']);
-			header('location: '.URL.'index/index');
-		} 
-		else {
-			echo "no";  
-			Session::setValue('loggedIn', false);
-			header('location: '.URL);
+				// Session::setValue('role', "user");
+				// Session::setValue('loggedIn', true);
+				// Session::setValue('user_name', $username);
+				// Session::setValue('password', $res[0]['password']);
+				header('location: '.$URL.'index');
+			} 
+			else {
+				// Session::setValue('loggedIn', false);
+				header('location: '.$URL.'login');
+			}
 		}
-		
-		
 	}
 		
 }

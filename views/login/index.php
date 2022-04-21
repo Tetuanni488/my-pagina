@@ -10,7 +10,10 @@
 </head>
 <body>
     <div id="main">
-        <form method="post">  
+        <h1 class="error center">
+        <?php echo $this->message ?>
+        </h1>
+        <form method="post">
             <label>Username</label>  
             <input type="text" name="username" class="form-control" />  
             <br />  

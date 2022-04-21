@@ -2,8 +2,9 @@
 
 class Login extends Controller {
 
-	function __construct() {
+	public function __construct() {
 		parent::__construct();
+		$this->view->message = "";
         // Session::init();
 	}
 	
@@ -16,6 +17,14 @@ class Login extends Controller {
 	function run()
 	{
 		$this->model->run();
+
+		// if ($res == false){
+		// 	$this->accessError();
+		// }
+	}
+
+	function accessError(){
+		$this->view->message = "Usuario no valido.";
 	}
 	
 	
