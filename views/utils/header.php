@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <div id="header">
-    <ul>
-        <li><a href="index">Inicio</a></li>
-        <li><a href="login">Nuevo</a></li>
-    </ul>
+    <a href="index">Inicio</a>
+    <a href="login">Iniciar Sesion</a>
 </div>

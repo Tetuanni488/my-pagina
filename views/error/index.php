@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="main">
+    <div class="wrapper">
         <h1 class="center error">
         <?php
             echo $this->mensaje;

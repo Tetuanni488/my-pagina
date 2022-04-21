@@ -13,13 +13,14 @@ body{
     padding: 10px;
 }
 
-#header ul li{
-    list-style: none;
-    display: inline;
+#header {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
     padding: 10px;
 }
 
-#header ul li a{
+#header a{
     color: white;
     text-decoration: none;
     padding: 10px;
@@ -30,9 +31,9 @@ body{
     padding: 20px;
 }
 
-#main{
+.wrapper{
     padding: 20px 0;
-    width: 500px;
+    width: 80%;
     margin: 0 auto;
 }
 
