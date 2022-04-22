@@ -10,7 +10,7 @@
     <title>Hola</title>
 </head>
 <body>
-    <?php require 'views/utils/header.php'; ?>
+    <?php require 'views/utils/navbar.php'; ?>
     <div class="wrapper">
         <h1 class="center">Bienvenido al sitio</h1>
     </div>
