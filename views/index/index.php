@@ -6,13 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="public/css/normalize.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
     <title>Hola</title>
 </head>
 <body>
     <?php require 'views/utils/navbar.php'; ?>
     <div class="wrapper">
-        <h1 class="center">Bienvenido al sitio</h1>
+        <h1 class="center">Hi, Suly!</h1>
     </div>
 </body>
+<style>
+    .wrapper{
+        padding-top:60px;
+    }
+</style>
 </html>

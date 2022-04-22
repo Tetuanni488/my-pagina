@@ -1,70 +1,179 @@
+/* || Typography */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
+
+/* || Root */
+
+:root{
+    /*colors */
+    --color-black:#000;
+    --color-black-2:#1a1a1a;
+    --color-black-3:#202020;
+    --color-black-4:#161616;
+    --color-red:#ff5555;
+    --color-white:#fff;
+    --color-semigrey:#cccc;
+    --color-success:#5dc45d;
+    
+    /* font sizes */
+    --tpye-xs: 12px;
+    --tpye-s: 16px;
+
+}
+
+/* || Body */
+
 *{
     padding: 0;
     margin: 0;
 }
+
+html{
+    width: 100%;
+}
+
 body{
-    min-height: calc(100vh - 60px);
-    width: 100%;
-    background-color: #eee;
-    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    background-color: var(--color-black-2);
+    font-family: 'JetBrains Mono', monospace;
 }
 
-/* Header */
-
-.navbar{
-    position: fixed;
-    width: 100%;
-    padding: 10px;
-    justify-content: space-between;
-    background: black;
-}
+/* || Header and Main Navigation */
 
 .navbar {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    max-width: none;
+    width: 100%;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: var(--color-black);
 }
 .navbar .navbar-left, .navbar-right{
     padding: 10px;
 }
 .navbar .navbar-left .navbar-item, .navbar .navbar-right .navbar-item{
-    padding: 10px;
+    width: 100%;
     text-decoration: none;
-    color: #fff;
+    color: var(--color-white);
 }
 
-/* Footer */
+/* || Footer */
 
 .footer{
-    background-color: #ccc;
+    background-color: var(--color-semigrey);
     padding: 20px;
 }
 
-/* Content */
+/* || Content */
 
 .wrapper{
+    box-sizing: border-box;
     position: relative;
     width: 80%;
-    min-height: 100vh;
+    min-height: 100%;
     margin: 0 auto;
-    padding-top: 60px;
-    
 }
 
-.center{
-    text-align: center;
-}
-
-/* Form */
+/* || Form */
 
 .form-wrapper{
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    background-color: var(--color-black-3);
 }
 
-.error{
-    color: #ac2323;
+.form-wrapper .form-err{
+    color: var(--color-red);
+    font-size: var(--tpye-xs);
+}
+
+.form-wrapper .form-label{
+    color: var(--color-semigrey);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.form-wrapper .form-btn-success{
+    border: none;
+    margin-top: 20px;
+    color: var(--color-black);
+    background-color: var(--color-white);
+    transition: all 0.3s;
+}
+.form-wrapper .form-btn-success:hover{
+    color: var(--color-white);
+    background-color: var(--color-success);
+}
+
+.form-wrapper .form-register{
+    font-size: var(--tpye-xs);
+    color: var(--color-semigrey);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-wrapper .form-register .form-register-link{
+    color: var(--color-success);
+    transition: all 0.3s;
+}
+.form-wrapper .form-register .form-register-link:hover{
+    color: var(--color-white);
+}
+
+/* || error wrapper */
+
+.error-wrapper{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: var(--color-red);
+}
+
+/* || Inputs */
+
+input{
+    appearance: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    padding: 10px;
+    color: var(--color-white);
+    background-color: var(--color-black-4);
+    font-size: var(--tpye-s);
+    -webkit-tap-highlight-color: transparent;
+    transition: border 0.3s;
+}
+
+/* || Autocomplete */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    background-color: var(--color-black-4) !important;
+    box-shadow: 0 0 0px 1000px var(--color-black-4) inset;
+    -webkit-box-shadow: 0 0 0px 1000px var(--color-black-4) inset;
+    -webkit-text-fill-color: var(--color-white);
+    font-size: var(--tpye-s);
+    transition: background-color 5000s ease-in-out 0s;
 }

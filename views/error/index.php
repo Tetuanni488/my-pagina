@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <h1 class="center error">
+        <h1 class="error-wrapper">
         <?php
             echo $this->mensaje;
         ?>

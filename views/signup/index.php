@@ -15,12 +15,16 @@
                 Wrong password
             </div>
             <label class="form-label" >Username</label>  
-            <input type="text" name="username" class="form-control" />  
+            <input type="text" name="username" class="form-control" />
+            <label class="form-label" >Email</label>  
+            <input type="text" name="email" class="form-control" />
             <label class="form-label">Password</label>
             <input type="password" name="password" class="form-control" />
-            <input type="submit" name="login" class="form-btn-success" value="Log in"></input>
+            <label class="form-label">Repeat your password</label>
+            <input type="password" name="password" class="form-control" />
+            <input type="submit" name="login" class="form-btn-success" value="Complete"></input>
             <div class="form-register">
-                Dont have an account? <a href="signup" class="form-register-link">Sign up now!</a>
+                You already have an account? <a href="login" class="form-register-link">Log in here!</a>
             </div>
         </form>
     </div>
