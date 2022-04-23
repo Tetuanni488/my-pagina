@@ -1,35 +1,43 @@
 <?php
 
-class Login_Model extends Model
-{
-	public function __construct()
-	{
-		parent::__construct();
-	}
+class Login_Model extends Model{
 
-	public function run()
-	{
-		if($_SERVER["REQUEST_METHOD"] == "POST"){
-			$username=$_POST['username'];
-			$password=md5($_POST['password']);
-			
-			$query = $this->db->connect()->prepare("SELECT * FROM users WHERE username = :username AND password = :password");
+    public function __construct(){
+        parent::__construct();
+    }
 
-            $query->execute([':username' => $username, ':password' => $password]);
+    public function login($username, $password){
+        // insertar datos en la BD
+        try{
+            //$query = $this->db->connect()->prepare('SELECT * FROM users WHERE username = :username');
+            $query = $this->prepare('SELECT * FROM users WHERE username = :username');
+            $query->execute(['username' => $username]);
+            
+            if($query->rowCount() == 1){
+                $item = $query->fetch(PDO::FETCH_ASSOC); 
 
-			if ($row = $query->fetch()) {
+                $user = new User_Model();
+                $user->from($item);
 
-				// Session::setValue('role', "user");
-				// Session::setValue('loggedIn', true);
-				// Session::setValue('user_name', $username);
-				// Session::setValue('password', $res[0]['password']);
-				header('location: '.$URL.'index');
-			} 
-			else {
-				// Session::setValue('loggedIn', false);
-				header('location: '.$URL.'login');
-			}
-		}
-	}
-		
+                error_log('login: user id '.$user->getId());
+                error_log($user->getRole());
+
+                if(md5($password) == $user->getPassword()){
+                    error_log('login: success');
+                    //return ['id' => $item['id'], 'username' => $item['username'], 'role' => $item['role']];
+                    return $user;
+                    //return $user->getId();
+                }else{
+                    return NULL;
+                }
+            }
+        }catch(PDOException $e){
+            return NULL;
+        }
+    }
+
+    
+
 }
+
+?>

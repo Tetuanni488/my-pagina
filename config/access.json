@@ -1,0 +1,19 @@
+{
+    "sites":[
+        {
+            "site" : "", 
+            "access" : "public", 
+            "role" : ""
+        },
+        {
+            "site" : "login", 
+            "access" : "public", 
+            "role" : ""
+        }
+    ],
+
+    "default-sites":{
+        "user": "dashboard",
+        "admin": "user"
+    }
+}

@@ -1,10 +1,19 @@
 <?php
 
+include_once 'libs/imodel.php';
+
 class Model{
 
     function __construct(){
-        //echo "<p>Modelo principal</p>";
         $this->db = new Database();
+    }
+
+    function query($query){
+        return $this->db->connect()->query($query);
+    }
+
+    function prepare($query){
+        return $this->db->connect()->prepare($query);
     }
 }
 

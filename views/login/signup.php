@@ -24,7 +24,7 @@
             <input type="password" name="password" class="form-control" />
             <input type="submit" name="login" class="form-btn-success" value="Complete"></input>
             <div class="form-register">
-                You already have an account? <a href="login" class="form-register-link">Log in here!</a>
+                You already have an account? <a href="<?php echo constant('URL'); ?>login" class="form-register-link">Log in here!</a>
             </div>
         </form>
     </div>

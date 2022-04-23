@@ -1,0 +1,1552 @@
+[23-Apr-2022 00:15:57 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:15:57 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\mypagina\libs\app.php on line 7
+[23-Apr-2022 00:16:18 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:16:19 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:16:19 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 00:16:19 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:16:19 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:16:26 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:16:26 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:16:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate/, url => login
+[23-Apr-2022 00:16:26 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:16:26 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:16:26 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 00:16:26 Europe/Berlin] login: inicio
+[23-Apr-2022 00:16:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\mypagina\libs\model.php:16
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\models\login_model.php(14): Model->prepare('SELECT * FROM u...')
+#1 C:\xampp\htdocs\mypagina\controllers\login.php(31): Login_Model->login('admin', 'admin')
+#2 C:\xampp\htdocs\mypagina\libs\app.php(43): Login->authenticate()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\libs\model.php on line 16
+[23-Apr-2022 00:16:51 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:16:51 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:16:51 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 00:16:51 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:16:51 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:16:57 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:16:57 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:16:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 00:16:57 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:16:57 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:16:57 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 00:16:57 Europe/Berlin] login: inicio
+[23-Apr-2022 00:16:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\mypagina\libs\model.php:16
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\models\login_model.php(14): Model->prepare('SELECT * FROM u...')
+#1 C:\xampp\htdocs\mypagina\controllers\login.php(31): Login_Model->login('solayman', 'password')
+#2 C:\xampp\htdocs\mypagina\libs\app.php(43): Login->authenticate()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\libs\model.php on line 16
+[23-Apr-2022 00:17:15 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:17:15 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:17:15 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 00:17:15 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:17:15 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:17:15 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 00:17:15 Europe/Berlin] login: inicio
+[23-Apr-2022 00:17:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\mypagina\libs\model.php:16
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\models\login_model.php(14): Model->prepare('SELECT * FROM u...')
+#1 C:\xampp\htdocs\mypagina\controllers\login.php(31): Login_Model->login('solayman', 'password')
+#2 C:\xampp\htdocs\mypagina\libs\app.php(43): Login->authenticate()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\libs\model.php on line 16
+[23-Apr-2022 00:17:26 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:17:26 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:17:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 00:17:26 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:17:26 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:17:26 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 00:17:26 Europe/Berlin] login: inicio
+[23-Apr-2022 00:17:26 Europe/Berlin] login: user id 2
+[23-Apr-2022 00:17:26 Europe/Berlin] 
+[23-Apr-2022 00:17:26 Europe/Berlin] Login::authenticate() username and/or password wrong
+[23-Apr-2022 00:17:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Errors" not found in C:\xampp\htdocs\mypagina\controllers\login.php:41
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\app.php(43): Login->authenticate()
+#1 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#2 {main}
+  thrown in C:\xampp\htdocs\mypagina\controllers\login.php on line 41
+[23-Apr-2022 00:17:31 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:17:31 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:17:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate/, url => login
+[23-Apr-2022 00:17:31 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:17:31 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:17:31 Europe/Berlin] ExistPOST: No existe el parametro username
+[23-Apr-2022 00:17:31 Europe/Berlin] Login::authenticate() error with params
+[23-Apr-2022 00:17:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Errors" not found in C:\xampp\htdocs\mypagina\controllers\login.php:48
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\app.php(43): Login->authenticate()
+#1 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#2 {main}
+  thrown in C:\xampp\htdocs\mypagina\controllers\login.php on line 48
+[23-Apr-2022 00:18:26 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:18:26 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:18:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate/, url => login
+[23-Apr-2022 00:18:26 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:18:26 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:18:26 Europe/Berlin] ExistPOST: No existe el parametro username
+[23-Apr-2022 00:18:26 Europe/Berlin] Login::authenticate() error with params
+[23-Apr-2022 00:18:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Errors" not found in C:\xampp\htdocs\mypagina\controllers\login.php:48
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\app.php(43): Login->authenticate()
+#1 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#2 {main}
+  thrown in C:\xampp\htdocs\mypagina\controllers\login.php on line 48
+[23-Apr-2022 00:18:28 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:18:28 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:18:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 00:18:28 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:18:28 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:18:32 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:18:32 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:18:32 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/render, url => login
+[23-Apr-2022 00:18:32 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:18:32 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:18:32 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:18:32 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:18:32 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:18:32 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/public/css/normalize.css, url => login
+[23-Apr-2022 00:18:32 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:18:32 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:18:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Login::public() in C:\xampp\htdocs\mypagina\libs\app.php:40
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\mypagina\libs\app.php on line 40
+[23-Apr-2022 00:18:32 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:18:32 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/public/css/style.css, url => login
+[23-Apr-2022 00:18:32 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:18:32 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:18:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Login::public() in C:\xampp\htdocs\mypagina\libs\app.php:40
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\mypagina\libs\app.php on line 40
+[23-Apr-2022 00:18:52 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:18:52 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:18:52 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/render, url => login
+[23-Apr-2022 00:18:52 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:18:52 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:18:52 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:18:52 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:18:52 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:18:52 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/public/css/normalize.css, url => login
+[23-Apr-2022 00:18:52 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:18:52 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:18:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Login::public() in C:\xampp\htdocs\mypagina\libs\app.php:40
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\mypagina\libs\app.php on line 40
+[23-Apr-2022 00:18:52 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:18:52 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/public/css/style.css, url => login
+[23-Apr-2022 00:18:52 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:18:52 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:18:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Login::public() in C:\xampp\htdocs\mypagina\libs\app.php:40
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\mypagina\libs\app.php on line 40
+[23-Apr-2022 00:19:05 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:19:05 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:19:05 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/render, url => login
+[23-Apr-2022 00:19:05 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:19:05 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:19:05 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:19:05 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:19:05 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/public/css/normalize.css, url => login
+[23-Apr-2022 00:19:05 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:19:05 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:19:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Login::public() in C:\xampp\htdocs\mypagina\libs\app.php:40
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\mypagina\libs\app.php on line 40
+[23-Apr-2022 00:19:06 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:19:06 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:19:06 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 00:19:06 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:19:06 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:19:07 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:19:07 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:19:07 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 00:19:07 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:19:07 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:19:12 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:19:12 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:19:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 00:19:12 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:19:12 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:19:16 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:19:16 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:19:16 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/render, url => login
+[23-Apr-2022 00:19:16 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:19:16 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:19:16 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:19:16 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:19:16 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:19:16 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/public/css/normalize.css, url => login
+[23-Apr-2022 00:19:16 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:19:16 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:19:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Login::public() in C:\xampp\htdocs\mypagina\libs\app.php:40
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\mypagina\libs\app.php on line 40
+[23-Apr-2022 00:19:16 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:19:16 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/public/css/style.css, url => login
+[23-Apr-2022 00:19:16 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:19:16 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:19:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Login::public() in C:\xampp\htdocs\mypagina\libs\app.php:40
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\mypagina\libs\app.php on line 40
+[23-Apr-2022 00:19:40 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:19:40 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:19:40 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/render, url => login
+[23-Apr-2022 00:19:40 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:19:40 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:19:40 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:19:40 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:19:40 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:19:40 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/public/css/normalize.css, url => login
+[23-Apr-2022 00:19:40 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:19:40 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:19:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Login::public() in C:\xampp\htdocs\mypagina\libs\app.php:40
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\mypagina\libs\app.php on line 40
+[23-Apr-2022 00:19:40 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:19:40 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/public/css/style.css, url => login
+[23-Apr-2022 00:19:40 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:19:40 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:19:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Login::public() in C:\xampp\htdocs\mypagina\libs\app.php:40
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\mypagina\libs\app.php on line 40
+[23-Apr-2022 00:50:47 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:50:47 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:50:47 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/render, url => login
+[23-Apr-2022 00:50:47 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:50:47 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:50:47 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:50:47 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:50:47 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:50:47 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/public/css/normalize.css, url => login
+[23-Apr-2022 00:50:47 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:50:47 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:50:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Login::public() in C:\xampp\htdocs\mypagina\libs\app.php:40
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\mypagina\libs\app.php on line 40
+[23-Apr-2022 00:50:47 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:50:47 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/public/css/style.css, url => login
+[23-Apr-2022 00:50:47 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:50:47 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:50:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Login::public() in C:\xampp\htdocs\mypagina\libs\app.php:40
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\mypagina\libs\app.php on line 40
+[23-Apr-2022 00:50:50 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:50:50 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:50:50 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 00:50:50 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:50:50 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:50:50 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:50:50 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:50:50 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 00:50:50 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:50:50 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:51:13 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:51:13 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:51:13 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/render, url => login
+[23-Apr-2022 00:51:13 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:51:13 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:51:13 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:51:13 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:51:13 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:51:13 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/public/css/normalize.css, url => login
+[23-Apr-2022 00:51:13 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:51:13 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:51:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Login::public() in C:\xampp\htdocs\mypagina\libs\app.php:40
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\mypagina\libs\app.php on line 40
+[23-Apr-2022 00:51:13 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:51:13 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/public/css/style.css, url => login
+[23-Apr-2022 00:51:13 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:51:13 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:51:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Login::public() in C:\xampp\htdocs\mypagina\libs\app.php:40
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\mypagina\libs\app.php on line 40
+[23-Apr-2022 00:51:16 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:51:16 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:51:16 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 00:51:16 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:51:16 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:51:17 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:51:17 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:51:17 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 00:51:17 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:51:17 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:51:23 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:51:23 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:51:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 00:51:23 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:51:23 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:51:23 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 00:51:23 Europe/Berlin] login: inicio
+[23-Apr-2022 00:51:23 Europe/Berlin] login: user id 2
+[23-Apr-2022 00:51:23 Europe/Berlin] 
+[23-Apr-2022 00:51:23 Europe/Berlin] Login::authenticate() username and/or password wrong
+[23-Apr-2022 00:51:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Errors" not found in C:\xampp\htdocs\mypagina\controllers\login.php:41
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\app.php(43): Login->authenticate()
+#1 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#2 {main}
+  thrown in C:\xampp\htdocs\mypagina\controllers\login.php on line 41
+[23-Apr-2022 00:53:59 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:53:59 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:53:59 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 00:53:59 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:53:59 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:54:03 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:54:03 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:54:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 00:54:03 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:54:03 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:54:03 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 00:54:03 Europe/Berlin] login: inicio
+[23-Apr-2022 00:54:03 Europe/Berlin] login: user id 2
+[23-Apr-2022 00:54:03 Europe/Berlin] 
+[23-Apr-2022 00:54:03 Europe/Berlin] Login::authenticate() username and/or password wrong
+[23-Apr-2022 00:54:03 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:54:03 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\mypagina\libs\app.php on line 7
+[23-Apr-2022 00:54:03 Europe/Berlin] View::handleError() existsKey =>Nombre de usuario y/o password incorrectos
+[23-Apr-2022 00:56:44 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:56:44 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:56:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 00:56:44 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:56:44 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:56:48 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:56:48 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:56:48 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 00:56:48 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:56:48 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:56:48 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 00:56:48 Europe/Berlin] login: inicio
+[23-Apr-2022 00:56:48 Europe/Berlin] login: user id 1
+[23-Apr-2022 00:56:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class User_Model could not be converted to string in C:\xampp\htdocs\mypagina\models\login_model.php:24
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\controllers\login.php(31): Login_Model->login('admin', 'admin')
+#1 C:\xampp\htdocs\mypagina\libs\app.php(43): Login->authenticate()
+#2 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\mypagina\models\login_model.php on line 24
+[23-Apr-2022 00:57:57 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:57:57 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:57:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 00:57:57 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:57:57 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:57:57 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 00:57:57 Europe/Berlin] login: inicio
+[23-Apr-2022 00:57:57 Europe/Berlin] login: user id 1
+[23-Apr-2022 00:57:57 Europe/Berlin] admin21232f297a57a5a743894a0e4a801fc3
+[23-Apr-2022 00:57:57 Europe/Berlin] Login::authenticate() username and/or password wrong
+[23-Apr-2022 00:57:57 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:57:57 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\mypagina\libs\app.php on line 7
+[23-Apr-2022 00:57:57 Europe/Berlin] View::handleError() existsKey =>Nombre de usuario y/o password incorrectos
+[23-Apr-2022 00:58:26 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:58:26 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:58:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 00:58:26 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:58:26 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:58:27 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:58:27 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:58:27 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 00:58:27 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:58:27 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:58:31 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:58:31 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:58:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 00:58:31 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:58:31 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:58:31 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 00:58:31 Europe/Berlin] login: inicio
+[23-Apr-2022 00:58:31 Europe/Berlin] login: user id 1
+[23-Apr-2022 00:58:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class User_Model could not be converted to string in C:\xampp\htdocs\mypagina\models\login_model.php:24
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\controllers\login.php(31): Login_Model->login('admin', 'admin')
+#1 C:\xampp\htdocs\mypagina\libs\app.php(43): Login->authenticate()
+#2 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\mypagina\models\login_model.php on line 24
+[23-Apr-2022 00:59:16 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:59:16 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:59:16 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 00:59:16 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:59:16 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:59:18 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:59:18 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:59:18 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 00:59:18 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:59:18 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:59:18 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 00:59:18 Europe/Berlin] login: inicio
+[23-Apr-2022 00:59:18 Europe/Berlin] login: user id 1
+[23-Apr-2022 00:59:18 Europe/Berlin] 
+[23-Apr-2022 00:59:18 Europe/Berlin] Login::authenticate() username and/or password wrong
+[23-Apr-2022 00:59:18 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:59:18 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\mypagina\libs\app.php on line 7
+[23-Apr-2022 00:59:18 Europe/Berlin] View::handleError() existsKey =>Nombre de usuario y/o password incorrectos
+[23-Apr-2022 00:59:49 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:59:49 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:59:49 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 00:59:49 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:59:49 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:59:53 Europe/Berlin] Hello, errors!
+[23-Apr-2022 00:59:53 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 00:59:53 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 00:59:53 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 00:59:53 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 00:59:53 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 00:59:53 Europe/Berlin] login: inicio
+[23-Apr-2022 00:59:53 Europe/Berlin] login: user id 1
+[23-Apr-2022 00:59:53 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: strval() expects exactly 1 argument, 0 given in C:\xampp\htdocs\mypagina\models\login_model.php:24
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\models\login_model.php(24): strval()
+#1 C:\xampp\htdocs\mypagina\controllers\login.php(31): Login_Model->login('admin', 'admin')
+#2 C:\xampp\htdocs\mypagina\libs\app.php(43): Login->authenticate()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\models\login_model.php on line 24
+[23-Apr-2022 01:01:15 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:01:15 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:01:15 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:01:15 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:01:15 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 01:01:16 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:01:16 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:01:16 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:01:16 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:01:16 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 01:01:22 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:01:22 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:01:22 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 01:01:22 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:01:22 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 01:01:22 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 01:01:22 Europe/Berlin] login: user id 2
+[23-Apr-2022 01:01:22 Europe/Berlin] Login::authenticate() username and/or password wrong
+[23-Apr-2022 01:01:22 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:01:22 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\mypagina\libs\app.php on line 7
+[23-Apr-2022 01:01:22 Europe/Berlin] View::handleError() existsKey =>Nombre de usuario y/o password incorrectos
+[23-Apr-2022 01:02:01 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:02:01 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:02:01 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:02:01 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:02:01 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 01:02:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "if" in C:\xampp\htdocs\mypagina\models\login_model.php on line 25
+[23-Apr-2022 01:02:03 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:02:03 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:02:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:02:03 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:02:03 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 01:02:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "if" in C:\xampp\htdocs\mypagina\models\login_model.php on line 25
+[23-Apr-2022 01:02:11 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:02:11 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:02:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:02:11 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:02:11 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 01:02:16 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:02:16 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:02:16 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 01:02:16 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:02:16 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 01:02:16 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 01:02:16 Europe/Berlin] login: user id 2
+[23-Apr-2022 01:02:16 Europe/Berlin] 5f4dcc3b5aa765d61d8327deb882cf99
+[23-Apr-2022 01:02:16 Europe/Berlin] Login::authenticate() username and/or password wrong
+[23-Apr-2022 01:02:16 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:02:16 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\mypagina\libs\app.php on line 7
+[23-Apr-2022 01:02:16 Europe/Berlin] View::handleError() existsKey =>Nombre de usuario y/o password incorrectos
+[23-Apr-2022 01:07:25 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:07:25 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:07:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:07:25 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:07:25 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 01:07:30 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:07:30 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:07:30 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:07:30 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:07:30 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 01:07:36 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:07:36 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:07:36 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 01:07:36 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:07:36 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 01:07:36 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 01:07:36 Europe/Berlin] login: user id 2
+[23-Apr-2022 01:07:36 Europe/Berlin] login: success
+[23-Apr-2022 01:07:36 Europe/Berlin] Login::authenticate() passed
+[23-Apr-2022 01:07:36 Europe/Berlin] sessionController::initialize(): user: solayman
+[23-Apr-2022 01:07:36 Europe/Berlin] sessionController::authorizeAccess(): role: user
+[23-Apr-2022 01:07:36 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:07:36 Europe/Berlin] PHP Fatal error:  Cannot declare class Errors, because the name is already in use in C:\xampp\htdocs\mypagina\controllers\errors.php on line 3
+[23-Apr-2022 01:08:27 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:08:27 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:08:27 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:08:27 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:08:27 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:08:27 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:08:27 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:08:29 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:08:29 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:08:29 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:08:29 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:08:29 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:08:29 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:08:29 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:08:33 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:08:33 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:08:33 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:08:33 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:08:33 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 01:08:33 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:08:33 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:08:33 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 01:08:33 Europe/Berlin] login: user id 2
+[23-Apr-2022 01:08:33 Europe/Berlin] user
+[23-Apr-2022 01:08:33 Europe/Berlin] login: success
+[23-Apr-2022 01:08:33 Europe/Berlin] Login::authenticate() passed
+[23-Apr-2022 01:08:33 Europe/Berlin] sessionController::initialize(): user: solayman
+[23-Apr-2022 01:08:33 Europe/Berlin] sessionController::authorizeAccess(): role: user
+[23-Apr-2022 01:08:33 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:08:33 Europe/Berlin] PHP Fatal error:  Cannot declare class Errors, because the name is already in use in C:\xampp\htdocs\mypagina\controllers\errors.php on line 3
+[23-Apr-2022 01:10:13 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:10:13 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:10:13 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:10:13 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:10:13 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:10:13 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:10:13 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:10:14 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:10:14 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:10:14 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:10:14 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:10:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:10:14 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:10:14 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:10:19 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:10:19 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:10:19 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:10:19 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:10:19 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 01:10:19 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:10:19 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:10:19 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 01:10:19 Europe/Berlin] login: user id 2
+[23-Apr-2022 01:10:19 Europe/Berlin] user
+[23-Apr-2022 01:10:19 Europe/Berlin] login: success
+[23-Apr-2022 01:10:19 Europe/Berlin] Login::authenticate() passed
+[23-Apr-2022 01:10:19 Europe/Berlin] sessionController::initialize(): user: solayman
+[23-Apr-2022 01:10:19 Europe/Berlin] sessionController::authorizeAccess(): role: user
+[23-Apr-2022 01:10:19 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:10:19 Europe/Berlin] PHP Warning:  require(controllers/errors.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\mypagina\libs\app.php on line 50
+[23-Apr-2022 01:10:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/errors.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\mypagina\libs\app.php:50
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\mypagina\libs\app.php on line 50
+[23-Apr-2022 01:10:46 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:10:46 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:10:46 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:10:46 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:10:46 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:10:46 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:10:46 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:10:48 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:10:48 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:10:48 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:10:48 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:10:48 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:10:48 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:10:48 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:10:56 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:10:56 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:10:56 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:10:56 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:10:56 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 01:10:56 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:10:56 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:10:56 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 01:10:56 Europe/Berlin] login: user id 2
+[23-Apr-2022 01:10:56 Europe/Berlin] user
+[23-Apr-2022 01:10:56 Europe/Berlin] login: success
+[23-Apr-2022 01:10:56 Europe/Berlin] Login::authenticate() passed
+[23-Apr-2022 01:10:56 Europe/Berlin] sessionController::initialize(): user: solayman
+[23-Apr-2022 01:10:56 Europe/Berlin] sessionController::authorizeAccess(): role: user
+[23-Apr-2022 01:10:56 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:12:44 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:12:44 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:12:44 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:12:44 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:12:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:12:44 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:12:44 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:12:57 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:12:57 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:12:57 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:12:57 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:12:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 01:12:57 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:12:57 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:12:57 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 01:12:57 Europe/Berlin] login: user id 2
+[23-Apr-2022 01:12:57 Europe/Berlin] user
+[23-Apr-2022 01:12:57 Europe/Berlin] login: success
+[23-Apr-2022 01:12:57 Europe/Berlin] Login::authenticate() passed
+[23-Apr-2022 01:12:57 Europe/Berlin] sessionController::initialize(): user: solayman
+[23-Apr-2022 01:12:57 Europe/Berlin] sessionController::authorizeAccess(): role: user
+[23-Apr-2022 01:12:57 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:12:57 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\mypagina\libs\app.php on line 7
+[23-Apr-2022 01:13:16 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:13:16 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\mypagina\libs\app.php on line 7
+[23-Apr-2022 01:13:16 Europe/Berlin] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\mypagina\views\index\index.php on line 14
+[23-Apr-2022 01:13:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in C:\xampp\htdocs\mypagina\views\index\index.php:14
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(12): require()
+#1 C:\xampp\htdocs\mypagina\controllers\index.php(12): View->render('index/index')
+#2 C:\xampp\htdocs\mypagina\libs\app.php(16): Index->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\index\index.php on line 14
+[23-Apr-2022 01:13:17 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:13:17 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:13:17 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:13:17 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:13:17 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:13:17 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:13:17 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:13:20 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:13:20 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:13:20 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:13:20 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:13:20 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 01:13:20 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:13:20 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:13:20 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 01:13:20 Europe/Berlin] login: user id 2
+[23-Apr-2022 01:13:20 Europe/Berlin] user
+[23-Apr-2022 01:13:20 Europe/Berlin] login: success
+[23-Apr-2022 01:13:20 Europe/Berlin] Login::authenticate() passed
+[23-Apr-2022 01:13:20 Europe/Berlin] sessionController::initialize(): user: solayman
+[23-Apr-2022 01:13:20 Europe/Berlin] sessionController::authorizeAccess(): role: user
+[23-Apr-2022 01:13:20 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:13:20 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\mypagina\libs\app.php on line 7
+[23-Apr-2022 01:13:20 Europe/Berlin] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\mypagina\views\index\index.php on line 14
+[23-Apr-2022 01:13:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in C:\xampp\htdocs\mypagina\views\index\index.php:14
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(12): require()
+#1 C:\xampp\htdocs\mypagina\controllers\index.php(12): View->render('index/index')
+#2 C:\xampp\htdocs\mypagina\libs\app.php(16): Index->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\index\index.php on line 14
+[23-Apr-2022 01:16:15 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:16:15 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\mypagina\libs\app.php on line 7
+[23-Apr-2022 01:16:15 Europe/Berlin] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\mypagina\views\index\index.php on line 14
+[23-Apr-2022 01:16:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in C:\xampp\htdocs\mypagina\views\index\index.php:14
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(12): require()
+#1 C:\xampp\htdocs\mypagina\controllers\index.php(12): View->render('index/index')
+#2 C:\xampp\htdocs\mypagina\libs\app.php(16): Index->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\index\index.php on line 14
+[23-Apr-2022 01:16:16 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:16:16 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:16:16 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:16:16 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:16:16 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:16:16 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:16:16 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:16:20 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:16:20 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:16:20 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:16:20 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:16:20 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 01:16:20 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:16:20 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:16:20 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 01:16:20 Europe/Berlin] login: user id 2
+[23-Apr-2022 01:16:20 Europe/Berlin] user
+[23-Apr-2022 01:16:20 Europe/Berlin] login: success
+[23-Apr-2022 01:16:20 Europe/Berlin] Login::authenticate() passed
+[23-Apr-2022 01:16:20 Europe/Berlin] sessionController::initialize(): user: solayman
+[23-Apr-2022 01:16:20 Europe/Berlin] sessionController::authorizeAccess(): role: user
+[23-Apr-2022 01:16:20 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:16:20 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:16:20 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:16:20 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:16:20 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:16:20 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:16:20 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:16:20 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:16:20 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:16:20 Europe/Berlin] Dashboard::constructor() 
+[23-Apr-2022 01:16:20 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:16:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "ExpensesModel" not found in C:\xampp\htdocs\mypagina\controllers\dashboard.php:17
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\app.php(47): Dashboard->render()
+#1 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#2 {main}
+  thrown in C:\xampp\htdocs\mypagina\controllers\dashboard.php on line 17
+[23-Apr-2022 01:16:41 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:16:41 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:16:41 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:16:41 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:16:41 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:16:41 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:16:41 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:16:41 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:16:41 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:16:41 Europe/Berlin] Dashboard::constructor() 
+[23-Apr-2022 01:16:41 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:16:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "ExpensesModel" not found in C:\xampp\htdocs\mypagina\controllers\dashboard.php:17
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\app.php(47): Dashboard->render()
+#1 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#2 {main}
+  thrown in C:\xampp\htdocs\mypagina\controllers\dashboard.php on line 17
+[23-Apr-2022 01:16:42 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:16:42 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:16:42 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:16:42 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:16:42 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:16:42 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:16:42 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:16:43 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:16:43 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:16:43 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:16:43 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:16:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:16:43 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:16:43 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:17:28 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:17:28 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:17:28 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:17:28 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:17:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 01:17:28 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:17:28 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:17:28 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 01:17:28 Europe/Berlin] login: user id 2
+[23-Apr-2022 01:17:28 Europe/Berlin] user
+[23-Apr-2022 01:17:28 Europe/Berlin] login: success
+[23-Apr-2022 01:17:28 Europe/Berlin] Login::authenticate() passed
+[23-Apr-2022 01:17:28 Europe/Berlin] sessionController::initialize(): user: solayman
+[23-Apr-2022 01:17:28 Europe/Berlin] sessionController::authorizeAccess(): role: user
+[23-Apr-2022 01:17:28 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:17:28 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:17:28 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:17:28 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:17:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:17:28 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:17:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:17:28 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:17:28 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:17:28 Europe/Berlin] Dashboard::constructor() 
+[23-Apr-2022 01:17:28 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:17:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "ExpensesModel" not found in C:\xampp\htdocs\mypagina\controllers\dashboard.php:17
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\app.php(47): Dashboard->render()
+#1 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#2 {main}
+  thrown in C:\xampp\htdocs\mypagina\controllers\dashboard.php on line 17
+[23-Apr-2022 01:17:34 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:17:34 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:17:34 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:17:34 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:17:34 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:17:34 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:17:34 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:17:36 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:17:36 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:17:36 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:17:36 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:17:36 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:17:36 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:17:36 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:17:59 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:17:59 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:17:59 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:17:59 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:17:59 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 01:17:59 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:17:59 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:17:59 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 01:17:59 Europe/Berlin] login: user id 2
+[23-Apr-2022 01:17:59 Europe/Berlin] user
+[23-Apr-2022 01:17:59 Europe/Berlin] login: success
+[23-Apr-2022 01:17:59 Europe/Berlin] Login::authenticate() passed
+[23-Apr-2022 01:17:59 Europe/Berlin] sessionController::initialize(): user: solayman
+[23-Apr-2022 01:17:59 Europe/Berlin] sessionController::authorizeAccess(): role: user
+[23-Apr-2022 01:17:59 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:17:59 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:17:59 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:17:59 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:17:59 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:17:59 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:17:59 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:17:59 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:17:59 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:17:59 Europe/Berlin] Dashboard::constructor() 
+[23-Apr-2022 01:17:59 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:17:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "ExpensesModel" not found in C:\xampp\htdocs\mypagina\controllers\dashboard.php:17
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\app.php(47): Dashboard->render()
+#1 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#2 {main}
+  thrown in C:\xampp\htdocs\mypagina\controllers\dashboard.php on line 17
+[23-Apr-2022 01:18:26 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:18:26 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:18:26 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:18:26 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:18:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:18:26 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:18:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:18:26 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:18:26 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:18:26 Europe/Berlin] Dashboard::constructor() 
+[23-Apr-2022 01:18:26 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:18:26 Europe/Berlin] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\mypagina\views\index\index.php on line 14
+[23-Apr-2022 01:18:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in C:\xampp\htdocs\mypagina\views\index\index.php:14
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(12): require()
+#1 C:\xampp\htdocs\mypagina\controllers\dashboard.php(24): View->render('index/index', Array)
+#2 C:\xampp\htdocs\mypagina\libs\app.php(47): Dashboard->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\index\index.php on line 14
+[23-Apr-2022 01:19:21 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:19:21 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:19:21 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:19:21 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:19:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:19:21 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:19:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:19:21 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:19:21 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:19:21 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 01:19:21 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:19:21 Europe/Berlin] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\mypagina\views\index\index.php on line 14
+[23-Apr-2022 01:19:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in C:\xampp\htdocs\mypagina\views\index\index.php:14
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(12): require()
+#1 C:\xampp\htdocs\mypagina\controllers\dashboard.php(24): View->render('index/index', Array)
+#2 C:\xampp\htdocs\mypagina\libs\app.php(47): Dashboard->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\index\index.php on line 14
+[23-Apr-2022 01:19:57 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:19:57 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:19:57 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:19:57 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:19:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:19:57 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:19:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:19:57 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:19:57 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:19:57 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 01:19:57 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:19:57 Europe/Berlin] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\mypagina\views\index\index.php on line 14
+[23-Apr-2022 01:19:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRole() on null in C:\xampp\htdocs\mypagina\views\index\index.php:14
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(12): require()
+#1 C:\xampp\htdocs\mypagina\controllers\dashboard.php(24): View->render('index/index', Array)
+#2 C:\xampp\htdocs\mypagina\libs\app.php(47): Dashboard->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\index\index.php on line 14
+[23-Apr-2022 01:30:11 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:30:11 Europe/Berlin] PHP Warning:  Undefined property: App::$d in C:\xampp\htdocs\mypagina\controllers\dashboard.php on line 2
+[23-Apr-2022 01:30:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\mypagina\controllers\dashboard.php on line 2
+[23-Apr-2022 01:30:11 Europe/Berlin] PHP Warning:  Undefined property: App::$d in C:\xampp\htdocs\mypagina\controllers\dashboard.php on line 3
+[23-Apr-2022 01:30:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\mypagina\controllers\dashboard.php on line 3
+[23-Apr-2022 01:30:11 Europe/Berlin] PHP Warning:  Undefined property: App::$d in C:\xampp\htdocs\mypagina\controllers\dashboard.php on line 4
+[23-Apr-2022 01:30:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\mypagina\controllers\dashboard.php on line 4
+[23-Apr-2022 01:30:11 Europe/Berlin] PHP Warning:  Undefined property: App::$d in C:\xampp\htdocs\mypagina\controllers\dashboard.php on line 5
+[23-Apr-2022 01:30:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\mypagina\controllers\dashboard.php on line 5
+[23-Apr-2022 01:30:11 Europe/Berlin] PHP Warning:  Undefined property: App::$d in C:\xampp\htdocs\mypagina\controllers\dashboard.php on line 6
+[23-Apr-2022 01:30:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\mypagina\controllers\dashboard.php on line 6
+[23-Apr-2022 01:30:11 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:30:11 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:30:11 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:30:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:30:11 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:30:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:30:11 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:30:11 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:30:11 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 01:30:11 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:30:11 Europe/Berlin] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\mypagina\views\index\index.php on line 14
+[23-Apr-2022 01:30:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRole() on null in C:\xampp\htdocs\mypagina\views\index\index.php:14
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(12): require()
+#1 C:\xampp\htdocs\mypagina\controllers\dashboard.php(32): View->render('index/index', Array)
+#2 C:\xampp\htdocs\mypagina\libs\app.php(47): Dashboard->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\index\index.php on line 14
+[23-Apr-2022 01:30:54 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:30:54 Europe/Berlin] PHP Warning:  Undefined property: App::$d in C:\xampp\htdocs\mypagina\controllers\dashboard.php on line 2
+[23-Apr-2022 01:30:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\mypagina\controllers\dashboard.php on line 2
+[23-Apr-2022 01:30:54 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:30:54 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:30:54 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:30:54 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:30:54 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:30:54 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:30:54 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:30:54 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:30:54 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 01:30:54 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:30:54 Europe/Berlin] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\mypagina\views\index\index.php on line 14
+[23-Apr-2022 01:30:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRole() on null in C:\xampp\htdocs\mypagina\views\index\index.php:14
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(11): require()
+#1 C:\xampp\htdocs\mypagina\controllers\dashboard.php(27): View->render('index/index', Array)
+#2 C:\xampp\htdocs\mypagina\libs\app.php(47): Dashboard->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\index\index.php on line 14
+[23-Apr-2022 01:31:10 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:31:10 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:31:10 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:31:10 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:31:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:31:10 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:31:10 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:31:23 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:31:23 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:31:23 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:31:23 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:31:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 01:31:23 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:31:23 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:31:23 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 01:31:23 Europe/Berlin] login: user id 2
+[23-Apr-2022 01:31:23 Europe/Berlin] user
+[23-Apr-2022 01:31:23 Europe/Berlin] login: success
+[23-Apr-2022 01:31:23 Europe/Berlin] Login::authenticate() passed
+[23-Apr-2022 01:31:23 Europe/Berlin] sessionController::initialize(): user: solayman
+[23-Apr-2022 01:31:23 Europe/Berlin] sessionController::authorizeAccess(): role: user
+[23-Apr-2022 01:31:23 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:31:23 Europe/Berlin] PHP Warning:  Undefined property: App::$d in C:\xampp\htdocs\mypagina\controllers\dashboard.php on line 2
+[23-Apr-2022 01:31:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\mypagina\controllers\dashboard.php on line 2
+[23-Apr-2022 01:31:23 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:31:23 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:31:23 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:31:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:31:23 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:31:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:31:23 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:31:23 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:31:23 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 01:31:23 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:31:23 Europe/Berlin] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\mypagina\views\index\index.php on line 14
+[23-Apr-2022 01:31:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRole() on null in C:\xampp\htdocs\mypagina\views\index\index.php:14
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(11): require()
+#1 C:\xampp\htdocs\mypagina\controllers\dashboard.php(27): View->render('index/index', Array)
+#2 C:\xampp\htdocs\mypagina\libs\app.php(47): Dashboard->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\index\index.php on line 14
+[23-Apr-2022 01:32:16 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:32:16 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:32:16 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:32:16 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:32:16 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:32:16 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:32:16 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:32:16 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:32:16 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:32:16 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 01:32:16 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:33:31 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:33:31 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:33:31 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:33:31 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:33:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:33:31 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:33:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:33:31 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:33:31 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:33:31 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 01:33:31 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:33:39 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:33:39 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:33:39 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:33:39 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:33:39 Europe/Berlin] SessionController::validateSession() redirect al login
+[23-Apr-2022 01:33:39 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\mypagina\classes\session.php on line 18
+[23-Apr-2022 01:33:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\mypagina\models\user_model.php on line 159
+[23-Apr-2022 01:33:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\mypagina\models\user_model.php on line 160
+[23-Apr-2022 01:33:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\mypagina\models\user_model.php on line 161
+[23-Apr-2022 01:33:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\mypagina\models\user_model.php on line 162
+[23-Apr-2022 01:33:39 Europe/Berlin] sessionController::getUserSessionData(): 
+[23-Apr-2022 01:33:39 Europe/Berlin] Dashboard::constructor() 
+[23-Apr-2022 01:33:39 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:33:39 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:33:39 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\mypagina\libs\app.php on line 7
+[23-Apr-2022 01:33:39 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\mypagina\views\index\index.php on line 2
+[23-Apr-2022 01:33:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRole() on null in C:\xampp\htdocs\mypagina\views\index\index.php:18
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(11): require()
+#1 C:\xampp\htdocs\mypagina\controllers\index.php(12): View->render('index/index')
+#2 C:\xampp\htdocs\mypagina\libs\app.php(16): Index->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\index\index.php on line 18
+[23-Apr-2022 01:33:44 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:33:44 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:33:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:33:44 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:33:44 Europe/Berlin] SessionController::validateSession() redirect al login
+[23-Apr-2022 01:33:44 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\mypagina\classes\session.php on line 18
+[23-Apr-2022 01:33:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\mypagina\models\user_model.php on line 159
+[23-Apr-2022 01:33:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\mypagina\models\user_model.php on line 160
+[23-Apr-2022 01:33:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\mypagina\models\user_model.php on line 161
+[23-Apr-2022 01:33:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\mypagina\models\user_model.php on line 162
+[23-Apr-2022 01:33:44 Europe/Berlin] sessionController::getUserSessionData(): 
+[23-Apr-2022 01:33:44 Europe/Berlin] Dashboard::constructor() 
+[23-Apr-2022 01:33:44 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:33:44 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:33:44 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\mypagina\libs\app.php on line 7
+[23-Apr-2022 01:33:44 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\mypagina\views\index\index.php on line 2
+[23-Apr-2022 01:33:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRole() on null in C:\xampp\htdocs\mypagina\views\index\index.php:18
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(11): require()
+#1 C:\xampp\htdocs\mypagina\controllers\index.php(12): View->render('index/index')
+#2 C:\xampp\htdocs\mypagina\libs\app.php(16): Index->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\index\index.php on line 18
+[23-Apr-2022 01:33:46 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:33:46 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:33:46 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:33:46 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:33:46 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 01:33:49 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:33:50 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:33:50 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:33:50 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:33:50 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:33:50 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 01:34:52 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:34:52 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\mypagina\views\index\index.php on line 2
+[23-Apr-2022 01:34:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRole() on null in C:\xampp\htdocs\mypagina\views\index\index.php:18
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(11): require()
+#1 C:\xampp\htdocs\mypagina\controllers\index.php(12): View->render('index/index')
+#2 C:\xampp\htdocs\mypagina\libs\app.php(47): Index->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\index\index.php on line 18
+[23-Apr-2022 01:34:53 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:34:53 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:34:53 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:34:53 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:34:53 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:34:53 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:34:53 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:34:53 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:34:53 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:34:53 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 01:34:53 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:34:57 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:34:57 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:34:57 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:34:57 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:34:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:34:57 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:34:57 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:34:58 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:34:58 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:34:58 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:34:58 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:34:58 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:34:58 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:34:58 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:34:58 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:34:58 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:34:58 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 01:34:58 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:36:03 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:36:03 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:36:03 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:36:03 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:36:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:36:03 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:36:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:36:03 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:36:03 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:36:03 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 01:36:03 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:43:12 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:43:12 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:43:12 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:43:12 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:43:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:43:12 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:43:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:43:12 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:43:12 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:43:12 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 01:43:12 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:43:15 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:43:15 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\mypagina\libs\app.php on line 7
+[23-Apr-2022 01:43:15 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\mypagina\views\index\index.php on line 2
+[23-Apr-2022 01:43:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRole() on null in C:\xampp\htdocs\mypagina\views\index\index.php:18
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(11): require()
+#1 C:\xampp\htdocs\mypagina\controllers\index.php(12): View->render('index/index')
+#2 C:\xampp\htdocs\mypagina\libs\app.php(16): Index->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\index\index.php on line 18
+[23-Apr-2022 01:43:17 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:43:17 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:43:17 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:43:17 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:43:17 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:43:17 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:43:17 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:43:17 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:43:17 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:43:17 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 01:43:17 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:49:34 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:49:34 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:49:34 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:49:34 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:49:34 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:49:34 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:49:34 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:49:34 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:49:34 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:49:34 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 01:49:34 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:50:04 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:50:04 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\mypagina\libs\app.php on line 7
+[23-Apr-2022 01:50:04 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\mypagina\views\index\index.php on line 2
+[23-Apr-2022 01:50:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRole() on null in C:\xampp\htdocs\mypagina\views\index\index.php:18
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(11): require()
+#1 C:\xampp\htdocs\mypagina\controllers\index.php(12): View->render('index/index')
+#2 C:\xampp\htdocs\mypagina\libs\app.php(16): Index->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\index\index.php on line 18
+[23-Apr-2022 01:50:06 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:50:06 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:50:06 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:50:06 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:50:06 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:50:06 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:50:06 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:52:46 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:52:46 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:52:46 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:52:46 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:52:46 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:52:46 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:52:46 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:52:46 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\mypagina\views\dashboard\index.php on line 2
+[23-Apr-2022 01:52:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRole() on null in C:\xampp\htdocs\mypagina\views\dashboard\index.php:18
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(11): require()
+#1 C:\xampp\htdocs\mypagina\controllers\login.php(13): View->render('dashboard/index')
+#2 C:\xampp\htdocs\mypagina\libs\app.php(47): Login->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\dashboard\index.php on line 18
+[23-Apr-2022 01:54:05 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:54:05 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:54:05 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:54:05 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:54:05 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:54:05 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:54:05 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:54:05 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:54:05 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:54:05 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:54:05 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:54:05 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:54:05 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:54:05 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:54:05 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:54:05 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:54:05 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 01:54:05 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:54:08 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:54:08 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:54:08 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:54:08 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:54:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:54:08 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:54:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:54:08 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:54:08 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:54:08 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 01:54:08 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:54:11 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:54:11 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:54:11 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:54:11 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:54:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:54:11 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:54:11 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:54:11 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:54:11 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:54:11 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:54:11 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:54:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:54:11 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:54:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:54:11 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:54:11 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:54:11 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 01:54:11 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:54:16 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:54:16 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:54:16 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:54:16 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:54:16 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:54:16 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:54:16 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:54:16 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:54:16 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:54:16 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:54:16 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 01:54:16 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:54:16 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:54:16 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:54:16 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:54:16 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 01:54:16 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 01:54:16 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:54:31 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:54:31 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:54:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:54:31 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:54:31 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 01:54:38 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:54:38 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:54:38 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 01:54:38 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:54:38 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 01:54:38 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 01:54:38 Europe/Berlin] login: user id 1
+[23-Apr-2022 01:54:38 Europe/Berlin] user
+[23-Apr-2022 01:54:38 Europe/Berlin] login: success
+[23-Apr-2022 01:54:38 Europe/Berlin] Login::authenticate() passed
+[23-Apr-2022 01:54:38 Europe/Berlin] sessionController::initialize(): user: admin
+[23-Apr-2022 01:54:38 Europe/Berlin] sessionController::authorizeAccess(): role: user
+[23-Apr-2022 01:54:38 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:54:38 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:54:38 Europe/Berlin] sessionController::getUserSessionData(): admin
+[23-Apr-2022 01:54:38 Europe/Berlin] sessionController::validateSession(): username:admin - role: user
+[23-Apr-2022 01:54:38 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:54:38 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:54:38 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:54:38 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:54:38 Europe/Berlin] sessionController::getUserSessionData(): admin
+[23-Apr-2022 01:54:38 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 01:54:39 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:54:43 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:54:43 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:54:43 Europe/Berlin] sessionController::getUserSessionData(): admin
+[23-Apr-2022 01:54:43 Europe/Berlin] sessionController::validateSession(): username:admin - role: user
+[23-Apr-2022 01:54:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:54:43 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:54:43 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 01:54:43 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:54:43 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:54:43 Europe/Berlin] sessionController::getUserSessionData(): admin
+[23-Apr-2022 01:54:43 Europe/Berlin] sessionController::validateSession(): username:admin - role: user
+[23-Apr-2022 01:54:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:54:43 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 01:54:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 01:54:43 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 01:54:43 Europe/Berlin] sessionController::getUserSessionData(): admin
+[23-Apr-2022 01:54:43 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 01:54:43 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 01:54:51 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:54:51 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:54:51 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:54:51 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:54:51 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 01:54:54 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:54:54 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:54:54 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 01:54:54 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:54:54 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 01:54:54 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 01:54:54 Europe/Berlin] Login::authenticate() username and/or password wrong
+[23-Apr-2022 01:54:54 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:54:54 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\mypagina\libs\app.php on line 7
+[23-Apr-2022 01:54:54 Europe/Berlin] View::handleError() existsKey =>Nombre de usuario y/o password incorrectos
+[23-Apr-2022 01:54:54 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\mypagina\views\index\index.php on line 2
+[23-Apr-2022 01:54:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRole() on null in C:\xampp\htdocs\mypagina\views\index\index.php:18
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(11): require()
+#1 C:\xampp\htdocs\mypagina\controllers\index.php(12): View->render('index/index')
+#2 C:\xampp\htdocs\mypagina\libs\app.php(16): Index->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\index\index.php on line 18
+[23-Apr-2022 01:57:06 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:57:06 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:57:06 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:57:06 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:57:06 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 01:57:09 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:57:09 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:57:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 01:57:09 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:57:09 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 01:57:09 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 01:57:09 Europe/Berlin] Login::authenticate() username and/or password wrong
+[23-Apr-2022 01:57:09 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:57:09 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\mypagina\libs\app.php on line 7
+[23-Apr-2022 01:57:09 Europe/Berlin] View::handleError() existsKey =>Nombre de usuario y/o password incorrectos
+[23-Apr-2022 01:57:09 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\mypagina\views\index\index.php on line 2
+[23-Apr-2022 01:57:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRole() on null in C:\xampp\htdocs\mypagina\views\index\index.php:18
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(11): require()
+#1 C:\xampp\htdocs\mypagina\controllers\index.php(12): View->render('index/index')
+#2 C:\xampp\htdocs\mypagina\libs\app.php(16): Index->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\index\index.php on line 18
+[23-Apr-2022 01:57:13 Europe/Berlin] Hello, errors!
+[23-Apr-2022 01:57:13 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 01:57:13 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 01:57:13 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 01:57:13 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 03:05:56 Europe/Berlin] Hello, errors!
+[23-Apr-2022 03:05:56 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 03:05:56 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:05:56 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 03:05:56 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 03:05:56 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 03:05:56 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 03:05:56 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 03:05:56 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:05:56 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 03:05:56 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 03:05:59 Europe/Berlin] Hello, errors!
+[23-Apr-2022 03:05:59 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 03:05:59 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:05:59 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 03:05:59 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 03:05:59 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 03:05:59 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 03:06:00 Europe/Berlin] Hello, errors!
+[23-Apr-2022 03:06:00 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 03:06:00 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:06:00 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 03:06:00 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 03:06:00 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 03:06:00 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[23-Apr-2022 03:06:00 Europe/Berlin] Hello, errors!
+[23-Apr-2022 03:06:00 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 03:06:00 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:06:00 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 03:06:00 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 03:06:00 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 03:06:00 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 03:06:00 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 03:06:00 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:06:00 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 03:06:00 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 03:06:57 Europe/Berlin] Hello, errors!
+[23-Apr-2022 03:06:57 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 03:06:57 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:06:57 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 03:06:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 03:06:57 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 03:06:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 03:06:57 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 03:06:57 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:06:57 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 03:06:57 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 03:06:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "<" in C:\xampp\htdocs\mypagina\views\dashboard\header.php on line 7
+[23-Apr-2022 03:06:59 Europe/Berlin] Hello, errors!
+[23-Apr-2022 03:06:59 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 03:06:59 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:06:59 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 03:06:59 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 03:06:59 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 03:06:59 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 03:06:59 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 03:06:59 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:06:59 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 03:06:59 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 03:06:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "<" in C:\xampp\htdocs\mypagina\views\dashboard\header.php on line 7
+[23-Apr-2022 03:07:16 Europe/Berlin] Hello, errors!
+[23-Apr-2022 03:07:16 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 03:07:16 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:07:16 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 03:07:16 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 03:07:16 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 03:07:16 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 03:07:16 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 03:07:16 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:07:16 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 03:07:16 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 03:07:16 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "<" in C:\xampp\htdocs\mypagina\views\dashboard\header.php on line 7
+[23-Apr-2022 03:07:17 Europe/Berlin] Hello, errors!
+[23-Apr-2022 03:07:17 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 03:07:17 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:07:17 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 03:07:17 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 03:07:17 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 03:07:17 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 03:07:17 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 03:07:17 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:07:17 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 03:07:17 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 03:07:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "<" in C:\xampp\htdocs\mypagina\views\dashboard\header.php on line 7
+[23-Apr-2022 03:07:23 Europe/Berlin] Hello, errors!
+[23-Apr-2022 03:07:23 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 03:07:23 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:07:23 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 03:07:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 03:07:23 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 03:07:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 03:07:23 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 03:07:23 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:07:23 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 03:07:23 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 03:07:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ">", expecting end of file in C:\xampp\htdocs\mypagina\views\dashboard\header.php on line 7
+[23-Apr-2022 03:07:23 Europe/Berlin] Hello, errors!
+[23-Apr-2022 03:07:23 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 03:07:23 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:07:23 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 03:07:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 03:07:23 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 03:07:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 03:07:23 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 03:07:23 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:07:23 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 03:07:23 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 03:07:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ">", expecting end of file in C:\xampp\htdocs\mypagina\views\dashboard\header.php on line 7
+[23-Apr-2022 03:07:35 Europe/Berlin] Hello, errors!
+[23-Apr-2022 03:07:35 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 03:07:35 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:07:35 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 03:07:35 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 03:07:35 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 03:07:35 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 03:07:35 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 03:07:35 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:07:35 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 03:07:35 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 03:07:49 Europe/Berlin] Hello, errors!
+[23-Apr-2022 03:07:49 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 03:07:49 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:07:49 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 03:07:49 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 03:07:49 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 03:07:49 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 03:07:49 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 03:07:49 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:07:49 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 03:07:49 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 03:08:07 Europe/Berlin] Hello, errors!
+[23-Apr-2022 03:08:07 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 03:08:07 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:08:07 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[23-Apr-2022 03:08:07 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 03:08:07 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 03:08:07 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 03:08:07 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 03:08:07 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[23-Apr-2022 03:08:07 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 03:08:07 Europe/Berlin] Dashboard::RENDER() 
+[23-Apr-2022 14:44:16 Europe/Berlin] Hello, errors!
+[23-Apr-2022 14:44:20 Europe/Berlin] Hello, errors!
+[23-Apr-2022 14:44:20 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\mypagina\libs\app.php on line 7
+[23-Apr-2022 14:44:20 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\mypagina\views\index\index.php on line 2
+[23-Apr-2022 14:44:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRole() on null in C:\xampp\htdocs\mypagina\views\index\index.php:18
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(11): require()
+#1 C:\xampp\htdocs\mypagina\controllers\index.php(12): View->render('index/index')
+#2 C:\xampp\htdocs\mypagina\libs\app.php(16): Index->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\index\index.php on line 18
+[23-Apr-2022 14:44:21 Europe/Berlin] Hello, errors!
+[23-Apr-2022 14:44:21 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 14:44:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 14:44:21 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 14:44:21 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 14:44:26 Europe/Berlin] Hello, errors!
+[23-Apr-2022 14:44:27 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 14:44:27 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 14:44:27 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 14:44:27 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 14:44:27 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 14:44:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\mypagina\libs\model.php:16
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\models\login_model.php(13): Model->prepare('SELECT * FROM u...')
+#1 C:\xampp\htdocs\mypagina\controllers\login.php(35): Login_Model->login('admin', 'password')
+#2 C:\xampp\htdocs\mypagina\libs\app.php(43): Login->authenticate()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\libs\model.php on line 16
+[23-Apr-2022 14:44:46 Europe/Berlin] Hello, errors!
+[23-Apr-2022 14:44:46 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 14:44:46 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login, url => login
+[23-Apr-2022 14:44:46 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 14:44:46 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 14:44:49 Europe/Berlin] Hello, errors!
+[23-Apr-2022 14:44:49 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 14:44:49 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/login/authenticate, url => login
+[23-Apr-2022 14:44:49 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[23-Apr-2022 14:44:49 Europe/Berlin] SessionController::validateSession() public page
+[23-Apr-2022 14:44:49 Europe/Berlin] ExistPOST: Existen parámetros
+[23-Apr-2022 14:44:49 Europe/Berlin] login: user id 1
+[23-Apr-2022 14:44:49 Europe/Berlin] user
+[23-Apr-2022 14:44:49 Europe/Berlin] login: success
+[23-Apr-2022 14:44:49 Europe/Berlin] Login::authenticate() passed
+[23-Apr-2022 14:44:49 Europe/Berlin] sessionController::initialize(): user: admin
+[23-Apr-2022 14:44:49 Europe/Berlin] sessionController::authorizeAccess(): role: user
+[23-Apr-2022 14:44:49 Europe/Berlin] Hello, errors!
+[23-Apr-2022 14:44:49 Europe/Berlin] SessionController::validateSession()
+[23-Apr-2022 14:44:49 Europe/Berlin] sessionController::getUserSessionData(): admin
+[23-Apr-2022 14:44:49 Europe/Berlin] sessionController::validateSession(): username:admin - role: user
+[23-Apr-2022 14:44:49 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 14:44:49 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[23-Apr-2022 14:44:49 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[23-Apr-2022 14:44:49 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[23-Apr-2022 14:44:49 Europe/Berlin] sessionController::getUserSessionData(): admin
+[23-Apr-2022 14:44:49 Europe/Berlin] Dashboard::constructor() user
+[23-Apr-2022 14:44:49 Europe/Berlin] Dashboard::RENDER() 

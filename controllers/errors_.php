@@ -1,6 +1,6 @@
 <?php
 
-class Errors extends Controller{
+class Errors_ extends Controller{
     function __construct(){
         parent::__construct();
         $this->view->mensaje = "Error 404:: Page Not Found :/";

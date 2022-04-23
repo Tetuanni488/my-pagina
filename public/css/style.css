@@ -109,6 +109,7 @@ body{
 }
 
 .form-wrapper .form-btn-success{
+    cursor: pointer;
     border: none;
     margin-top: 20px;
     color: var(--color-black);
