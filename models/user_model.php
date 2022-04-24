@@ -6,6 +6,7 @@ class User_Model extends Model implements IModel{
     private $username;
     private $password;
     private $role;
+    private $email;
     // private $budget;
     // private $photo;
     // private $name;
@@ -16,6 +17,7 @@ class User_Model extends Model implements IModel{
         $this->username = '';
         $this->password = '';
         $this->role = '';
+        $this->email = '';
         // $this->budget = 0.0;
         // $this->photo = '';
         // $this->name = '';
@@ -104,11 +106,12 @@ class User_Model extends Model implements IModel{
 
     public function save(){
         try{
-            $query = $this->prepare('INSERT INTO users (username, password) VALUES(:username, :password)');
+            $query = $this->prepare('INSERT INTO users (username, password, role, email) VALUES(:username, :password, :role, :email)');
             $query->execute([
                 'username'  => $this->username, 
                 'password'  => $this->password,
-                // 'role'      => $this->role,
+                'role'      => $this->role,
+                'email'      => $this->email,
                 // 'budget'    => $this->budget,
                 // 'photo'     => $this->photo,
                 // 'name'      => $this->name
@@ -132,6 +135,7 @@ class User_Model extends Model implements IModel{
                 $item->setUsername($p['username']);
                 $item->setPassword($p['password'], false);
                 $item->setRole($p['role']);
+                $item->setEmail($p['email']);
                 // $item->setBudget($p['budget']);
                 // $item->setPhoto($p['photo']);
                 // $item->setName($p['name']);
@@ -160,6 +164,7 @@ class User_Model extends Model implements IModel{
             $this->username = $user['username'];
             $this->password = $user['password'];
             $this->role = $user['role'];
+            $this->email = $user['email'];
             // $this->budget = $user['budget'];
             // $this->photo = $user['photo'];
             // $this->name = $user['name'];
@@ -183,11 +188,12 @@ class User_Model extends Model implements IModel{
 
     public function update(){
         try{
-            $query = $this->prepare('UPDATE users SET username = :username, password = :password WHERE id = :id');
+            $query = $this->prepare('UPDATE users SET username = :username, password = :password, email = :email WHERE id = :id');
             $query->execute([
                 'id'        => $this->id,
                 'username' => $this->username, 
                 'password' => $this->password,
+                'email' => $this->email,
                 // 'budget' => $this->budget,
                 // 'photo' => $this->photo,
                 // 'name' => $this->name
@@ -215,17 +221,52 @@ class User_Model extends Model implements IModel{
         }
     }
 
+    public function findUserByEmail($email){
+        try {
+            $query = $this->prepare('SELECT * FROM users WHERE email = :email');
+            $query->execute( ['email' => $email]);
+            
+            if($query->rowCount() > 0){
+                $user = $query->fetch(PDO::FETCH_ASSOC);
+                return $user;
+            }else{
+                return false;
+            }
+        } catch (PDOException $e) {
+            echo $e;
+            return false;
+        }
+    }
+
+    public function findUserByUsername($username){
+        try {
+            $query = $this->prepare('SELECT * FROM users WHERE username = :username');
+            $query->execute( ['username' => $username]);
+            
+            if($query->rowCount() > 0){
+                $user = $query->fetch(PDO::FETCH_ASSOC);
+                return $user;
+            }else{
+                return false;
+            }
+        } catch (PDOException $e) {
+            echo $e;
+            return false;
+        }
+    }
+
     public function from($array){
         $this->id = $array['id'];
         $this->username = $array['username'];
         $this->password = $array['password'];
         $this->role = $array['role'];
+        $this->email = $array['email'];
         // $this->budget = $array['budget'];
         // $this->photo = $array['photo'];
         // $this->name = $array['name'];
     }
 
-    private function getHashedPassword($password){
+    public function getHashedPassword($password){
         return password_hash($password, PASSWORD_DEFAULT, ['cost' => 10]);
     }
 
@@ -240,6 +281,7 @@ class User_Model extends Model implements IModel{
     }
     public function setId($id){             $this->id = $id;}
     public function setRole($role){         $this->role = $role;}
+    public function setEmail($email){         $this->email = $email;}
     // public function setBudget($budget){     $this->budget = $budget;}
     // public function setPhoto($photo){       $this->photo = $photo;}
     // public function setName($name){         $this->name = $name;}
@@ -248,6 +290,7 @@ class User_Model extends Model implements IModel{
     public function getUsername(){  return $this->username;}
     public function getPassword(){  return $this->password;}
     public function getRole(){      return $this->role;}
+    public function getEmail(){      return $this->email;}
     // public function getBudget(){    return $this->budget;}
     // public function getPhoto(){     return $this->photo;}
     // public function getName(){      return $this->name;}

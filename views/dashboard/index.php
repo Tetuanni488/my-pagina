@@ -15,7 +15,7 @@
 <body>
     <?php require 'header.php'; ?>
     <div class="wrapper">
-        <h1 class="center">Hi, <?php echo $user->getRole() ?></h1>
+        <h1 class="center">Hi, <?php echo $user->getRole()?></h1>
     </div>
 </body>
 <style>
