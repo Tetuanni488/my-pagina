@@ -82,10 +82,9 @@ class Signup extends SessionController{
             }
 
             //Validar si no hay errores
-            if(empty($data["usernameError"]) && empty($data["emailError"] &&
-            empty($data["passwordError"]) && empty($data["confirmPasswordError"]))){
-                $data["password"] = $user->getHashedPassword($password);
-
+            if(empty($data["usernameError"]) && empty($data["emailError"]) &&
+            empty($data["passwordError"]) && empty($data["confirmPasswordError"])){
+                $data["password"] = $user->getHashedPassword($data["password"]);
                 //Asignar datos al objeto usuario
                 $user->setUsername($data["username"]);
                 $user->setPassword($data["password"]);
@@ -94,6 +93,8 @@ class Signup extends SessionController{
 
                 //Guardar los datos en la MySQL.
                 $user->save();
+            }else{
+                $this->view->render('login/signup',$data);
             }
             
         }else{
@@ -101,7 +102,6 @@ class Signup extends SessionController{
             //$this->errorAtSignup('Ingresa nombre de usuario y password');
             $this->redirect('signup', ['error' => Errors::ERROR_SIGNUP_NEWUSER_EXISTS]);
         }
-        $this->view->render('login/signup',$data);
     }
 }
 
