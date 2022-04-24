@@ -94,7 +94,7 @@ class SessionController extends Controller{
                 //la página no es pública
                 //redirect al login
                 error_log('SessionController::validateSession() redirect al login');
-                header('location: '. constant('URL') . '');
+                header('location: '. constant('URL') . 'login');
             }
         }
     }

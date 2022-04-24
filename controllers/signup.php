@@ -68,7 +68,7 @@ class Signup extends SessionController{
                 $data["passwordError"] = 'Please enter a password.';
             }elseif(strlen($data["password"]) < 6){
                 $data["passwordError"] = 'Password must be at least 8 characters.';
-            }elseif(!preg_match($passwordValidation, $data["password"])){
+            }elseif(preg_match($passwordValidation, $data["password"])){
                 $data["passwordError"] = 'Password must have at least one numeric value.';
             }
 
@@ -76,7 +76,7 @@ class Signup extends SessionController{
             if(empty($data["confirmPassword"])){
                 $data["confirmPasswordError"] = 'Please enter a password.';
             }else{
-                if($data["password" != $data["confirmPassword"]]){
+                if($data["password"] != $data["confirmPassword"]){
                     $data["confirmPasswordError"] = 'Passwords do not match.';
                 }
             }
@@ -84,15 +84,15 @@ class Signup extends SessionController{
             //Validar si no hay errores
             if(empty($data["usernameError"]) && empty($data["emailError"]) &&
             empty($data["passwordError"]) && empty($data["confirmPasswordError"])){
-                $data["password"] = $user->getHashedPassword($data["password"]);
                 //Asignar datos al objeto usuario
                 $user->setUsername($data["username"]);
                 $user->setPassword($data["password"]);
                 $user->setEmail($data["email"]);
                 $user->setRole("user");
 
-                //Guardar los datos en la MySQL.
+                //Guardar los datos en MySQL.
                 $user->save();
+                $this->initialize($user);
             }else{
                 $this->view->render('login/signup',$data);
             }

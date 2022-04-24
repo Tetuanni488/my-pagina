@@ -15,7 +15,29 @@
 <body>
     <?php require 'header.php'; ?>
     <div class="wrapper">
-        <h1 class="center">Hi, <?php echo $user->getRole()?></h1>
+        <div class="container">
+            <h2 class="center">Dashboard</h2>
+        </div>
+        <div class="user-settings-container">
+            <class class="user-settings-content">
+                <div class="user-settings-item">
+                <strong> Username: </strong> <br/>
+                    <div class="user-settings-item-value">
+                    <?php echo $user->getUsername() ?>
+                    </div>
+                </div>
+                <div class="user-settings-item">
+                   
+                    <strong> Email: </strong> <br/>
+                    <div class="user-settings-item-value">
+                    <?php echo $user->getEmail() ?>
+                    </div>
+                </div>
+            </class>
+            <class class="user-settings-content">
+                hola
+            </class>
+        </div>
     </div>
 </body>
 <style>

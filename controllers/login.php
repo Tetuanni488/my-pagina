@@ -20,30 +20,49 @@ class Login extends SessionController {
     }
 
 	function authenticate(){
-        if( $this->existPOST(['username', 'password']) ){
-            $username = $this->getPost('username');
-            $password = $this->getPost('password');
-            
-            //validate data
-            if($username == '' || empty($username) || $password == '' || empty($password)){
-                error_log('Login::authenticate() empty');
-                $this->redirect('', ['error' => Errors::ERROR_LOGIN_AUTHENTICATE_EMPTY]);
-                return;
-            }
-            // si el login es exitoso regresa solo el ID del usuario
-            
-            $user = $this->model->login($username, $password);
+        $data = [
+            "email" => "",
+            "password" => "",
+            "emailError" => "",
+            "passwordError" => "",
+        ];
 
-            if($user != NULL){
-                // inicializa el proceso de las sesiones
-                error_log('Login::authenticate() passed');    
-                $this->initialize($user);
+        if($_SERVER["REQUEST_METHOD"] == "POST"){
+            $_POST = filter_input_array(preg_replace('/[^a-zA-Z0-9 ]/', '', INPUT_POST));
+
+            $data = [
+                "email" => trim($this->getPost('email')),
+                "password" => trim($this->getPost('password')),
+                "emailError" => "",
+                "passwordError" => "",
+
+            ];
+            
+            $passwordValidation = "/^(.{0,7}|[^a-z]*|[^\d]*)$/i";
+
+            //Validar email
+            if(empty($data["email"])){
+                $data["emailError"] = 'Please enter a email.';
+            }elseif(!filter_var($data["email"], FILTER_VALIDATE_EMAIL)){
+                $data["emailError"] = 'Please enter the correct format. example: user@example.com';
+            }
+
+            //Validar contraseña
+            if(empty($data["password"])){
+                $data["passwordError"] = 'Please enter a password.';
+            }
+
+            if(empty($data["emailError"]) && empty($data["passwordError"])){
+                //Iniciar sesion
+                $user = $this->model->login($data["email"], $data["password"]);
+                if($user != NULL){
+                    $this->initialize($user);
+                }else{
+                    $data["emailError"] = 'The email or password are incorrect.';
+                    $this->view->render('login/index',$data);
+                }
             }else{
-                //error al registrar, que intente de nuevo
-                //$this->errorAtLogin('Nombre de usuario y/o password incorrecto');
-                error_log('Login::authenticate() username and/or password wrong');
-                $this->redirect('', ['error' => Errors::ERROR_LOGIN_AUTHENTICATE_DATA]);
-                return;
+                $this->view->render('login/index',$data);
             }
         }else{
             // error, cargar vista con errores

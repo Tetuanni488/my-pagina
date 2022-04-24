@@ -6,11 +6,11 @@ class Login_Model extends Model{
         parent::__construct();
     }
 
-    public function login($username, $password){
+    public function login($email, $password){
         // insertar datos en la BD
         try{
-            $query = $this->prepare('SELECT * FROM users WHERE username = :username');
-            $query->execute(['username' => $username]);
+            $query = $this->prepare('SELECT * FROM users WHERE email = :email');
+            $query->execute(['email' => $email]);
             
             if($query->rowCount() == 1){
                 $item = $query->fetch(PDO::FETCH_ASSOC); 
@@ -20,7 +20,7 @@ class Login_Model extends Model{
 
                 error_log('login: user id '.$user->getId());
 
-                if(password_verify($password, $user->getPassword())){
+                if(password_verify($password,$user->getPassword())){
                     error_log('login: success');
                     return $user;
                 }else{

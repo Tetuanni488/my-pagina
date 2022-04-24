@@ -12,10 +12,14 @@
     <div class="wrapper">
         <form method="POST" class="form-wrapper" action="<?php echo constant('URL'); ?>login/authenticate">
             <div class="form-err">
-                Wrong password
+                <?php echo $this->d["emailError"] ?>
             </div>
-            <label class="form-label" >Username</label>  
-            <input type="text" name="username" class="form-control" />  
+            <label class="form-label" >Email</label>
+            <input type="text" name="email" class="form-control" />  
+
+            <div class="form-err">
+                <?php echo $this->d["passwordError"] ?>
+            </div>
             <label class="form-label">Password</label>
             <input type="password" name="password" class="form-control" />
             <input type="submit" name="login" class="form-btn-success" value="Log in" pointer></input>

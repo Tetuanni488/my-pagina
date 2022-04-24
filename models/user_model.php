@@ -205,10 +205,10 @@ class User_Model extends Model implements IModel{
         }
     }
 
-    public function exists($username){
+    public function exists($email){
         try{
-            $query = $this->prepare('SELECT username FROM users WHERE username = :username');
-            $query->execute( ['username' => $username]);
+            $query = $this->prepare('SELECT email FROM users WHERE email = :email');
+            $query->execute( ['email' => $email]);
             
             if($query->rowCount() > 0){
                 return true;
@@ -267,7 +267,7 @@ class User_Model extends Model implements IModel{
     }
 
     public function getHashedPassword($password){
-        return password_hash($password, PASSWORD_DEFAULT, ['cost' => 10]);
+        return password_hash($password, PASSWORD_DEFAULT);
     }
 
     public function setUsername($username){ $this->username = $username;}
