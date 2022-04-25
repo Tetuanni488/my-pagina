@@ -694,3 +694,327 @@ Stack trace:
 [25-Apr-2022 12:18:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
 [25-Apr-2022 12:18:44 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
 [25-Apr-2022 12:18:44 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:22:13 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:22:13 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:22:13 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:22:13 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:22:13 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:22:13 Europe/Berlin] sessionController::isPublic(): currentURL => chat
+[25-Apr-2022 12:22:13 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:22:13 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:22:13 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:22:25 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:22:25 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:22:25 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:22:25 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:22:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:22:25 Europe/Berlin] sessionController::isPublic(): currentURL => chat
+[25-Apr-2022 12:22:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:22:25 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:22:25 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:23:40 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:23:40 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:23:40 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:23:40 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:23:40 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:23:40 Europe/Berlin] sessionController::isPublic(): currentURL => chat
+[25-Apr-2022 12:23:40 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:23:40 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:23:40 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:24:11 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:24:11 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:24:11 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:24:11 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:24:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:24:11 Europe/Berlin] sessionController::isPublic(): currentURL => chat
+[25-Apr-2022 12:24:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:24:11 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:24:11 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:24:28 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:24:28 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:24:28 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:24:28 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:24:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:24:28 Europe/Berlin] sessionController::isPublic(): currentURL => chat
+[25-Apr-2022 12:24:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:24:28 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:24:28 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:24:49 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:24:49 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:24:49 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:24:49 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:24:49 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:24:49 Europe/Berlin] sessionController::isPublic(): currentURL => chat
+[25-Apr-2022 12:24:49 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:24:49 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:24:49 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:25:02 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:25:02 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:25:02 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:25:02 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:25:02 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:25:02 Europe/Berlin] sessionController::isPublic(): currentURL => chat
+[25-Apr-2022 12:25:02 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:25:02 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:25:02 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:26:27 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:26:27 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:26:27 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:26:27 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:26:27 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:26:27 Europe/Berlin] sessionController::isPublic(): currentURL => chat
+[25-Apr-2022 12:26:27 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:26:27 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:26:27 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:27:10 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:27:10 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:27:10 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:27:10 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:27:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:27:10 Europe/Berlin] sessionController::isPublic(): currentURL => chat
+[25-Apr-2022 12:27:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:27:10 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:27:10 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:27:23 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:27:23 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:27:23 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:27:23 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:27:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:27:23 Europe/Berlin] sessionController::isPublic(): currentURL => chat
+[25-Apr-2022 12:27:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:27:23 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:27:23 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:27:35 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:27:35 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:27:35 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:27:35 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:27:35 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:27:35 Europe/Berlin] sessionController::isPublic(): currentURL => chat
+[25-Apr-2022 12:27:35 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:27:35 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:27:35 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:28:10 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:28:10 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:28:10 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:28:10 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:28:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:28:10 Europe/Berlin] sessionController::isPublic(): currentURL => chat
+[25-Apr-2022 12:28:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat, url => chat
+[25-Apr-2022 12:28:10 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:28:10 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:47:21 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:47:21 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:47:21 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:47:21 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:47:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:47:21 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&login=Log+in
+[25-Apr-2022 12:47:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:47:21 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:47:21 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:47:45 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:47:45 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:47:45 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:47:45 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:47:45 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:47:45 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&login=Log+in
+[25-Apr-2022 12:47:45 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:47:45 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:47:45 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:47:46 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:47:46 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:47:46 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:47:46 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:47:46 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:47:46 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&login=Log+in
+[25-Apr-2022 12:47:46 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:47:46 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:47:46 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:48:18 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:48:18 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:48:18 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:48:18 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:48:18 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:48:18 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&login=Log+in
+[25-Apr-2022 12:48:18 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:48:18 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:48:18 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:48:48 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:48:48 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:48:48 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:48:48 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:48:48 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:48:48 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&login=Log+in
+[25-Apr-2022 12:48:48 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:48:48 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:48:48 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:49:07 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:49:07 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:49:07 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:49:07 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:49:07 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:49:07 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&login=Log+in
+[25-Apr-2022 12:49:07 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:49:07 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:49:07 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:49:24 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:49:24 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:49:24 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:49:24 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:49:24 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:49:24 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&login=Log+in
+[25-Apr-2022 12:49:24 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:49:24 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:49:24 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:50:05 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:50:05 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:50:05 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:50:05 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:50:05 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:50:05 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&login=Log+in
+[25-Apr-2022 12:50:05 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:50:05 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:50:05 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:50:11 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:50:11 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:50:11 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:50:11 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:50:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:50:11 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&login=Log+in
+[25-Apr-2022 12:50:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:50:11 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:50:11 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:50:18 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:50:18 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:50:18 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:50:18 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:50:18 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:50:18 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&login=Log+in
+[25-Apr-2022 12:50:18 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:50:18 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:50:18 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:50:23 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:50:23 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:50:23 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:50:23 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:50:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:50:23 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&login=Log+in
+[25-Apr-2022 12:50:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:50:23 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:50:23 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:50:36 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:50:36 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:50:36 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:50:36 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:50:36 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:50:36 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&login=Log+in
+[25-Apr-2022 12:50:36 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:50:36 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:50:36 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:51:16 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:51:16 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:51:16 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:51:16 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:51:16 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:51:16 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&login=Log+in
+[25-Apr-2022 12:51:16 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:51:16 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:51:16 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:51:31 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:51:31 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:51:31 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:51:31 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:51:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:51:31 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&login=Log+in
+[25-Apr-2022 12:51:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&login=Log+in, url => chat?message=&login=Log+in
+[25-Apr-2022 12:51:31 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:51:31 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:51:44 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:51:44 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:51:44 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:51:44 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:51:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&send=Send, url => chat?message=&send=Send
+[25-Apr-2022 12:51:44 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&send=Send
+[25-Apr-2022 12:51:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&send=Send, url => chat?message=&send=Send
+[25-Apr-2022 12:51:44 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:51:44 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:52:20 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:52:20 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:52:20 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:52:20 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:52:20 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&send=Send, url => chat?message=&send=Send
+[25-Apr-2022 12:52:20 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&send=Send
+[25-Apr-2022 12:52:20 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&send=Send, url => chat?message=&send=Send
+[25-Apr-2022 12:52:20 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:52:20 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:52:42 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:52:42 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:52:42 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:52:42 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:52:42 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&send=Send, url => chat?message=&send=Send
+[25-Apr-2022 12:52:42 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&send=Send
+[25-Apr-2022 12:52:42 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&send=Send, url => chat?message=&send=Send
+[25-Apr-2022 12:52:42 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:52:42 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:53:47 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:53:47 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:53:47 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:53:47 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:53:47 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&send=Send, url => chat?message=&send=Send
+[25-Apr-2022 12:53:47 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&send=Send
+[25-Apr-2022 12:53:47 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&send=Send, url => chat?message=&send=Send
+[25-Apr-2022 12:53:47 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:53:47 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:54:08 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:54:08 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:54:08 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:54:08 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:54:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&send=Send, url => chat?message=&send=Send
+[25-Apr-2022 12:54:08 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&send=Send
+[25-Apr-2022 12:54:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&send=Send, url => chat?message=&send=Send
+[25-Apr-2022 12:54:08 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:54:08 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:54:21 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:54:21 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:54:21 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:54:21 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:54:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&send=Send, url => chat?message=&send=Send
+[25-Apr-2022 12:54:21 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&send=Send
+[25-Apr-2022 12:54:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&send=Send, url => chat?message=&send=Send
+[25-Apr-2022 12:54:21 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:54:21 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:54:31 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:54:31 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:54:31 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:54:31 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:54:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&send=Send, url => chat?message=&send=Send
+[25-Apr-2022 12:54:31 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&send=Send
+[25-Apr-2022 12:54:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&send=Send, url => chat?message=&send=Send
+[25-Apr-2022 12:54:31 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:54:31 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:54:57 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:54:57 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:54:57 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:54:57 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:54:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&send=Send, url => chat?message=&send=Send
+[25-Apr-2022 12:54:57 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&send=Send
+[25-Apr-2022 12:54:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&send=Send, url => chat?message=&send=Send
+[25-Apr-2022 12:54:57 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:54:57 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:55:09 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:55:09 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:55:09 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:55:09 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:55:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&send=Send, url => chat?message=&send=Send
+[25-Apr-2022 12:55:09 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&send=Send
+[25-Apr-2022 12:55:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&send=Send, url => chat?message=&send=Send
+[25-Apr-2022 12:55:09 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:55:09 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:55:29 Europe/Berlin] Hello, errors!
+[25-Apr-2022 12:55:29 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 12:55:29 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 12:55:29 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 12:55:29 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&send=Send, url => chat?message=&send=Send
+[25-Apr-2022 12:55:29 Europe/Berlin] sessionController::isPublic(): currentURL => chat?message=&send=Send
+[25-Apr-2022 12:55:29 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/chat?message=&send=Send, url => chat?message=&send=Send
+[25-Apr-2022 12:55:29 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[25-Apr-2022 12:55:29 Europe/Berlin] sessionController::getUserSessionData(): solayman

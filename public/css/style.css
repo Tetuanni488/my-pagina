@@ -190,13 +190,18 @@ body{
 .chat-container{
     width: 100%;
     display: flex;
-    background-color: var(--color-white);
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--color-black-4);
 }
 .chat-container .chat-messages-list{
     width: 100%;
+    height: 500px;
+    max-height: 500px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    overflow: auto;
 }
 .chat-container .chat-messages-list .chat-message-item{
     padding: 10px;
@@ -204,7 +209,7 @@ body{
     max-width: 80%;
     flex-direction: column;
     gap: 10px;
-    background-color: var(--color-black-4);
+    background-color: var(--color-black-3);
 }
 
 .chat-container .chat-messages-list .chat-message-item-own{
@@ -214,13 +219,36 @@ body{
     max-width: 80%;
     flex-direction: column;
     gap: 10px;
-    background-color: var(--color-black-4);
+    background-color: var(--color-black-3);
+}
+.chat-container .chat-form{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+.chat-container .chat-form .chat-textbox{
+    width: 80%;
+    height: 50px;
+    background-color: var(--color-semigrey);
+}
+.chat-container .chat-form .chat-submit{
+    width: 20%;
+    height: 50px;
+    margin: 0px;
+    color: var(--color-black);
+    background-color: var(--color-white);
+    transition: all .3s;
 }
 
+.chat-container .chat-form .chat-submit:hover{
+    color: var(--color-white);
+    background-color: var(--color-success);
+}
 
 /* || Inputs */
 
-input{
+textarea,input{
+    resize: none;
     appearance: none;
     border: none;
     outline: none;
@@ -250,3 +278,19 @@ select:-webkit-autofill:focus {
     font-size: var(--tpye-s);
     transition: background-color 5000s ease-in-out 0s;
 }
+
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-semigrey); 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-black-5);
+    transition: all .3s;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-black-3); 
+  }
