@@ -27,10 +27,15 @@
                     </div>
                 </div>
                 <div class="user-settings-item">
-                   
                     <strong> Email: </strong> <br/>
                     <div class="user-settings-item-value">
                     <?php echo $user->getEmail() ?>
+                    </div>
+                </div>
+                <div class="user-settings-item">
+                    <strong> Role: </strong> <br/>
+                    <div class="user-settings-item-value">
+                    <?php echo $user->getRole();?>
                     </div>
                 </div>
             </class>

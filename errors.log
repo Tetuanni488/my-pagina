@@ -1112,3 +1112,461 @@ Stack trace:
 [25-Apr-2022 00:19:34 Europe/Berlin] sessionController::getUserSessionData(): solayman
 [25-Apr-2022 00:19:34 Europe/Berlin] Dashboard::constructor() user
 [25-Apr-2022 00:19:34 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 00:33:32 Europe/Berlin] Hello, errors!
+[25-Apr-2022 00:33:32 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 00:33:32 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 00:33:32 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 00:33:32 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 00:33:32 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 00:33:32 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 00:33:32 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 00:33:32 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 00:33:32 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 00:33:32 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 00:34:56 Europe/Berlin] Hello, errors!
+[25-Apr-2022 00:34:56 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 00:34:56 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 00:34:56 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 00:34:56 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 00:34:56 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 00:34:56 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 00:34:56 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 00:34:56 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 00:34:56 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 00:34:56 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 00:35:00 Europe/Berlin] Hello, errors!
+[25-Apr-2022 00:35:00 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 00:35:00 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 00:35:00 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 00:35:00 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 00:35:00 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 00:35:00 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 00:35:00 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 00:35:00 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 00:35:00 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 00:35:00 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 00:35:00 Europe/Berlin] Hello, errors!
+[25-Apr-2022 00:35:00 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 00:35:00 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 00:35:00 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 00:35:00 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 00:35:00 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 00:35:00 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 00:35:00 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 00:35:00 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 00:35:00 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 00:35:00 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 00:37:08 Europe/Berlin] Hello, errors!
+[25-Apr-2022 00:37:08 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 00:37:08 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 00:37:08 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 00:37:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 00:37:08 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 00:37:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 00:37:08 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 00:37:08 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 00:37:08 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 00:37:08 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 00:38:47 Europe/Berlin] Hello, errors!
+[25-Apr-2022 00:38:47 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 00:38:47 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 00:38:47 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 00:38:47 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 00:38:47 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 00:38:47 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 00:38:47 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 00:38:47 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 00:38:47 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 00:38:47 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 00:38:54 Europe/Berlin] Hello, errors!
+[25-Apr-2022 00:38:54 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 00:38:54 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 00:38:54 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 00:38:54 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 00:38:54 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 00:38:54 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 00:38:54 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 00:38:54 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 00:38:54 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 00:38:54 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 00:39:21 Europe/Berlin] Hello, errors!
+[25-Apr-2022 00:39:21 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 00:39:21 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 00:39:21 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 00:39:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 00:39:21 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 00:39:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 00:39:21 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 00:39:21 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 00:39:21 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 00:39:21 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 00:55:01 Europe/Berlin] Hello, errors!
+[25-Apr-2022 00:55:01 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 00:55:01 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 00:55:01 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 00:55:01 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 00:55:01 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 00:55:01 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 00:55:01 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 00:55:01 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 00:55:01 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 00:55:01 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:11:42 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:11:42 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:11:42 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:11:42 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:11:42 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:11:42 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:11:42 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:11:42 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:11:42 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:11:42 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:11:42 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:11:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$a", expecting "," or ";" in C:\xampp\htdocs\mypagina\views\dashboard\index.php on line 38
+[25-Apr-2022 01:11:54 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:11:54 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:11:54 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:11:54 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:11:54 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:11:54 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:11:54 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:11:54 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:11:54 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:11:54 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:11:54 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:11:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$a", expecting "," or ";" in C:\xampp\htdocs\mypagina\views\dashboard\index.php on line 38
+[25-Apr-2022 01:11:56 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:11:56 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:11:56 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:11:56 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:11:56 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:11:56 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:11:56 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:11:56 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:11:56 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:11:56 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:11:56 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:11:56 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$a", expecting "," or ";" in C:\xampp\htdocs\mypagina\views\dashboard\index.php on line 38
+[25-Apr-2022 01:12:07 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:12:08 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:12:08 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:12:08 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:12:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:12:08 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:12:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:12:08 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:12:08 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:12:08 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:12:08 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:12:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "mundo”", expecting "," or ";" in C:\xampp\htdocs\mypagina\views\dashboard\index.php on line 38
+[25-Apr-2022 01:12:08 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:12:08 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:12:08 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:12:08 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:12:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:12:08 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:12:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:12:08 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:12:08 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:12:08 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:12:08 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:12:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "mundo”", expecting "," or ";" in C:\xampp\htdocs\mypagina\views\dashboard\index.php on line 38
+[25-Apr-2022 01:12:36 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:12:36 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:12:36 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:12:36 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:12:36 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:12:36 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:12:36 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:12:36 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:12:36 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:12:36 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:12:36 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:12:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "mundo”", expecting "," or ";" in C:\xampp\htdocs\mypagina\views\dashboard\index.php on line 38
+[25-Apr-2022 01:12:44 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:12:44 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:12:44 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:12:44 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:12:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:12:44 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:12:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:12:44 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:12:44 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:12:44 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:12:44 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:12:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "mundo”", expecting "," or ";" in C:\xampp\htdocs\mypagina\views\dashboard\index.php on line 38
+[25-Apr-2022 01:12:44 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:12:44 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:12:44 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:12:44 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:12:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:12:44 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:12:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:12:44 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:12:44 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:12:44 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:12:44 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:12:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "mundo”", expecting "," or ";" in C:\xampp\htdocs\mypagina\views\dashboard\index.php on line 38
+[25-Apr-2022 01:12:45 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:12:45 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:12:45 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:12:45 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:12:45 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:12:45 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:12:45 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:12:45 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:12:45 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:12:45 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:12:45 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:12:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "mundo”", expecting "," or ";" in C:\xampp\htdocs\mypagina\views\dashboard\index.php on line 38
+[25-Apr-2022 01:13:09 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:13:09 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:13:09 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:13:09 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:13:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:13:09 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:13:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:13:09 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:13:09 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:13:09 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:13:09 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:13:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "a" in C:\xampp\htdocs\mypagina\views\dashboard\index.php:38
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(10): require()
+#1 C:\xampp\htdocs\mypagina\controllers\dashboard.php(23): View->render('dashboard/index', Array)
+#2 C:\xampp\htdocs\mypagina\libs\app.php(47): Dashboard->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\dashboard\index.php on line 38
+[25-Apr-2022 01:14:20 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:14:20 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:14:20 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:14:20 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:14:20 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:14:20 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:14:20 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:14:20 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:14:20 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:14:20 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:14:20 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:14:23 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:14:23 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:14:23 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:14:23 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:14:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:14:23 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:14:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:14:23 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:14:23 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:14:23 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:14:23 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:14:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "a" in C:\xampp\htdocs\mypagina\views\dashboard\index.php:38
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(10): require()
+#1 C:\xampp\htdocs\mypagina\controllers\dashboard.php(23): View->render('dashboard/index', Array)
+#2 C:\xampp\htdocs\mypagina\libs\app.php(47): Dashboard->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\dashboard\index.php on line 38
+[25-Apr-2022 01:14:26 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:14:26 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:14:26 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:14:26 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:14:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:14:26 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:14:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:14:26 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:14:26 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:14:26 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:14:26 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:14:34 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:14:34 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:14:34 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:14:34 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:14:34 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:14:34 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:14:34 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:14:34 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:14:34 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:14:34 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:14:34 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:14:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "a" in C:\xampp\htdocs\mypagina\views\dashboard\index.php:3
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(10): require()
+#1 C:\xampp\htdocs\mypagina\controllers\dashboard.php(23): View->render('dashboard/index', Array)
+#2 C:\xampp\htdocs\mypagina\libs\app.php(47): Dashboard->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\dashboard\index.php on line 3
+[25-Apr-2022 01:14:42 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:14:42 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:14:42 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:14:42 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:14:42 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:14:42 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:14:42 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:14:42 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:14:42 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:14:42 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:14:42 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:15:05 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:15:05 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:15:05 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:15:05 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:15:05 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:15:05 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:15:05 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:15:05 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:15:05 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:15:05 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:15:05 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:15:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "a" in C:\xampp\htdocs\mypagina\views\dashboard\index.php:4
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(10): require()
+#1 C:\xampp\htdocs\mypagina\controllers\dashboard.php(23): View->render('dashboard/index', Array)
+#2 C:\xampp\htdocs\mypagina\libs\app.php(47): Dashboard->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\dashboard\index.php on line 4
+[25-Apr-2022 01:15:11 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:15:11 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:15:11 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:15:11 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:15:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:15:11 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:15:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:15:11 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:15:11 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:15:11 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:15:11 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:15:18 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:15:18 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:15:18 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:15:18 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:15:18 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:15:18 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:15:18 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:15:18 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:15:18 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:15:18 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:15:18 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:15:28 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:15:28 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:15:28 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:15:28 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:15:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:15:28 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:15:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:15:28 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:15:28 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:15:28 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:15:28 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:15:28 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\xampp\htdocs\mypagina\views\dashboard\index.php on line 4
+[25-Apr-2022 01:15:42 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:15:42 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:15:42 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:15:42 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:15:42 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:15:42 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:15:42 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:15:42 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:15:42 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:15:42 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:15:42 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:15:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\xampp\htdocs\mypagina\views\dashboard\index.php on line 4
+[25-Apr-2022 01:16:19 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:16:19 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:16:19 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:16:19 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:16:19 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:16:19 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:16:19 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:16:19 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:16:19 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:16:19 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:16:19 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:16:29 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:16:29 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:16:29 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:16:29 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:16:29 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:16:29 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:16:29 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:16:29 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:16:29 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:16:29 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:16:29 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:16:30 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "<" in C:\xampp\htdocs\mypagina\views\dashboard\index.php on line 3
+[25-Apr-2022 01:16:53 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:16:53 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:16:53 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:16:53 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:16:53 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:16:53 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:16:53 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:16:53 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:16:53 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:16:53 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:16:53 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:16:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "<" in C:\xampp\htdocs\mypagina\views\dashboard\index.php on line 3
+[25-Apr-2022 01:17:10 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:17:10 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:17:10 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:17:10 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:17:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:17:10 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:17:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:17:10 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:17:10 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:17:10 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:17:10 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:17:10 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "<" in C:\xampp\htdocs\mypagina\views\dashboard\index.php on line 3
+[25-Apr-2022 01:21:56 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:21:56 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:21:56 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:21:56 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:21:56 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:21:56 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:21:56 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:21:56 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:21:56 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:21:56 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:21:56 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:21:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "”10”" in C:\xampp\htdocs\mypagina\views\dashboard\index.php:3
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(10): require()
+#1 C:\xampp\htdocs\mypagina\controllers\dashboard.php(23): View->render('dashboard/index', Array)
+#2 C:\xampp\htdocs\mypagina\libs\app.php(47): Dashboard->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\dashboard\index.php on line 3
+[25-Apr-2022 01:36:37 Europe/Berlin] Hello, errors!
+[25-Apr-2022 01:36:37 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 01:36:37 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:36:37 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 01:36:37 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:36:37 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 01:36:37 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 01:36:37 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 01:36:37 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 01:36:37 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 01:36:37 Europe/Berlin] Dashboard::RENDER() 
+[25-Apr-2022 01:36:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "”10”" in C:\xampp\htdocs\mypagina\views\dashboard\index.php:3
+Stack trace:
+#0 C:\xampp\htdocs\mypagina\libs\view.php(10): require()
+#1 C:\xampp\htdocs\mypagina\controllers\dashboard.php(23): View->render('dashboard/index', Array)
+#2 C:\xampp\htdocs\mypagina\libs\app.php(47): Dashboard->render()
+#3 C:\xampp\htdocs\mypagina\index.php(35): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\mypagina\views\dashboard\index.php on line 3
+[25-Apr-2022 02:00:07 Europe/Berlin] Hello, errors!
+[25-Apr-2022 02:00:07 Europe/Berlin] SessionController::validateSession()
+[25-Apr-2022 02:00:07 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 02:00:07 Europe/Berlin] sessionController::validateSession(): username:solayman - role: user
+[25-Apr-2022 02:00:07 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 02:00:07 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[25-Apr-2022 02:00:07 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/mypagina/dashboard, url => dashboard
+[25-Apr-2022 02:00:07 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[25-Apr-2022 02:00:07 Europe/Berlin] sessionController::getUserSessionData(): solayman
+[25-Apr-2022 02:00:07 Europe/Berlin] Dashboard::constructor() user
+[25-Apr-2022 02:00:07 Europe/Berlin] Dashboard::RENDER() 
