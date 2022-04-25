@@ -10,11 +10,11 @@ class App
 
         //Check if the url ain't empty
         if(empty($url[0])){
-            $archivoController = 'controllers/index.php';
+            $archivoController = 'controllers/login.php';
             require $archivoController;
-            $controller = new Index();
+            $controller = new Login();
+            $controller->loadModel('login');
             $controller->render();
-            $controller->loadModel('index');
             return false;
         }else{
             $archivoController = 'controllers/' . $url[0] . '.php';
@@ -30,21 +30,29 @@ class App
             // Se obtienen el número de param
             $nparam = sizeof($url);
             // si se llama a un método
-            if($nparam > 1){
-                // hay parámetros
-                if($nparam > 2){
-                    $param = [];
-                    for($i = 2; $i < $nparam; $i++){
-                        array_push($param, $url[$i]);
+            if(isset($url[1])){
+                if(method_exists($controller, $url[1])){
+                    if(isset($url[2])){
+                        //el método tiene parámetros
+                        //sacamos e # de parametros
+                        $nparam = sizeof($url) - 2;
+                        //crear un arreglo con los parametros
+                        $params = [];
+                        //iterar
+                        for($i = 0; $i < $nparam; $i++){
+                            array_push($params, $url[$i + 2]);
+                        }
+                        //pasarlos al metodo   
+                        $controller->{$url[1]}($params);
+                    }else{
+                        $controller->{$url[1]}();    
                     }
-                    $controller->{$url[1]}($param);
                 }else{
-                    // solo se llama al método
-                    $controller->{$url[1]}();
+                    require 'controllers/errors_.php';
+                    $controller = new Errors_(); 
                 }
             }else{
-                // si se llama a un controlador
-                $controller->render();  
+                $controller->render();
             }
         }else{
             require 'controllers/errors_.php';

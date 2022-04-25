@@ -130,7 +130,7 @@ class User_Model extends Model implements IModel{
             $query = $this->query('SELECT * FROM users');
 
             while($p = $query->fetch(PDO::FETCH_ASSOC)){
-                $item = new UserModel();
+                $item = new User_Model();
                 $item->setId($p['id']);
                 $item->setUsername($p['username']);
                 $item->setPassword($p['password'], false);

@@ -4,8 +4,11 @@
 
 class Signup extends SessionController{
 
+    private $user;
+
     function __construct(){
         parent::__construct();
+        $this->user = $this->getUserSessionData();
     }
 
     function render(){

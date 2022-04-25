@@ -11,14 +11,24 @@
             "role" : ""
         },
         {
+            "site" : "chat", 
+            "access" : "private", 
+            "role" : "user"
+        },
+        {
             "site" : "signup", 
             "access" : "public", 
             "role" : ""
+        },
+        {
+            "site" : "dashboard", 
+            "access" : "private", 
+            "role" : "user"
         }
     ],
 
     "default-sites":{
-        "user": "dashboard",
+        "user": "chat",
         "admin": "user"
     }
 }

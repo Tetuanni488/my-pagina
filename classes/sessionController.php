@@ -148,6 +148,7 @@ class SessionController extends Controller{
             break;
             }
         }
+        error_log($url);
         header('location: ' .$url);
         
     }

@@ -185,6 +185,39 @@ body{
 }
 
 
+/* Chat */
+
+.chat-container{
+    width: 100%;
+    display: flex;
+    background-color: var(--color-white);
+}
+.chat-container .chat-messages-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.chat-container .chat-messages-list .chat-message-item{
+    padding: 10px;
+    width: fit-content;
+    max-width: 80%;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--color-black-4);
+}
+
+.chat-container .chat-messages-list .chat-message-item-own{
+    padding: 10px;
+    align-self: flex-end;
+    width: fit-content;
+    max-width: 80%;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--color-black-4);
+}
+
+
 /* || Inputs */
 
 input{

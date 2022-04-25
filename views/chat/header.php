@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="<?php echo constant('URL'); ?>/public/css/normalize.css">
     <link rel="stylesheet" href="<?php echo constant('URL'); ?>/public/css/style.css">
-    <title>Dashboard</title>
+    <title>Chat</title>
 </head>
 <div class="navbar">
     <div class="navbar-left">

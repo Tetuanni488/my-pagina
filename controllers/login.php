@@ -2,21 +2,17 @@
 
 class Login extends SessionController {
 
+    private $user;
+
 	public function __construct() {
 		parent::__construct();
 		$this->view->error = "";
+        $this->user = $this->getUserSessionData();
 	}
 	
 	
 	function render(){
-        if($this->existsSession()){
-            header('location:/mypagina/dashboard');
-        }else{
-            $actual_link = trim("$_SERVER[REQUEST_URI]");
-            $url = explode('/', $actual_link);
-            $this->view->errorMessage = '';
-            $this->view->render('login/index');
-        }
+        $this->view->render('login/index');
     }
 
 	function authenticate(){

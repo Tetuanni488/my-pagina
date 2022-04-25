@@ -1,7 +1,3 @@
-<?php
-    $user                   = $this->d['user'];
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +11,7 @@
 <body>
     <?php require 'header.php'; ?>
     <div class="wrapper">
-        <h1 class="center">Hi, <?php echo $user->getRole() ?></h1>
+        <h1 class="center">Hi</h1>
     </div>
 </body>
 <style>
